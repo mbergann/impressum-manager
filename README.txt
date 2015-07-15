@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: Marcin Poholski, Christian Jäger
+Contributors: mapodev, Christian Jäger
 Donate link: http://www.impressum-manager.com
 Tags: impressum, legal policy, terms
 Requires at least: 3.3.0
