@@ -1,0 +1,1158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Impressum Manager\n"
+"POT-Creation-Date: 2015-07-05 16:35+0100\n"
+"PO-Revision-Date: 2015-07-05 16:35+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class.impressum-manager-admin.php:58
+msgid "Urheber vom Bild"
+msgstr "Urheber vom Bild"
+
+#: admin/class.impressum-manager-admin.php:98
+#, php-format
+msgid ""
+"Dein Wordpress Impressum ist nicht eingerichtet! %s, um deine Webseite "
+"rechtssicher zu machen."
+msgstr ""
+"Dein Wordpress Impressum ist nicht eingerichtet! %s, um deine Webseite "
+"rechtssicher zu machen."
+
+#: admin/class.impressum-manager-admin.php:178
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: admin/class.impressum-manager-admin.php:180
+msgid ""
+"Um das Impressum in einem Beitrag oder in einer Seite einzufügen, musst du "
+"einen Shortcode benutzen. Der Shortcode lautet:<br><br> "
+"<b>[impressum_manager]</b><br><br>Hierzu gibt es zusätzliche Parameter. Der "
+"Type Paramter erlaubt es dir Teilstücke vom Impressum wiederzugeben. Hierbei "
+"kannst du <ul><li>Datenschutz</li><li>Haftungsausschluss</li><li>Kontakt</"
+"li><li>Bildquellen</li></ul> verwenden. Dabei wird dein Shortcode "
+"folgendermaßen aussehen:<br><br><b>[impressum type=\"datenschutz\"]</"
+"b><br><br>"
+msgstr ""
+"Um das Impressum in einem Beitrag oder in einer Seite einzufügen, musst du "
+"einen Shortcode benutzen. Der Shortcode lautet:<br><br> "
+"<b>[impressum_manager]</b><br><br>Hierzu gibt es zusätzliche Parameter. Der "
+"Type Paramter erlaubt es dir Teilstücke vom Impressum wiederzugeben. Um das "
+"jeweilige Teilstück zu benutzen, musst du den Shortcode verwenden, der in "
+"der Vorschau angezeigt wird."
+
+#: admin/class.impressum-manager-admin.php:184
+msgid "Settings"
+msgstr "Einstellung"
+
+#: admin/class.impressum-manager-admin.php:186
+msgid ""
+"Im Impressum Manager ist es möglich, Teile von dem Datenschutz bzw. "
+"Impressum Inhalte ein- und auszublenden. Mit den Häckchen in der "
+"Einestellungsseite kannst du die jeweiligen Bereiche ein- und ausschalten."
+msgstr ""
+"Im Impressum Manager ist es möglich, Teile von dem Datenschutz bzw. "
+"Impressum Inhalte ein- und auszublenden. Mit den Häckchen in der "
+"Einestellungsseite kannst du die jeweiligen Bereiche ein- und ausschalten."
+
+#: admin/class.impressum-manager-admin.php:190
+msgid "Feedback"
+msgstr "Feedback"
+
+#: admin/class.impressum-manager-admin.php:192
+msgid ""
+"Schick deine Fragen und Feedback an: <a href=\"mailto:support@impressum-"
+"manager.com\">support@impressum-manager.com</a>"
+msgstr ""
+"Schick deine Fragen und Feedback an: <a href=\"mailto:support@impressum-"
+"manager.com\">support@impressum-manager.com</a>"
+
+#: admin/class.impressum-manager-admin.php:207
+msgid "For more information:"
+msgstr "Für mehr Informationen:"
+
+#: admin/class.impressum-manager-admin.php:208
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/class.impressum-manager-admin.php:209
+msgid "Support"
+msgstr "Support"
+
+#: admin/views/class.impressum-manager-form-factory.php:10
+msgid "Powered by Link"
+msgstr "Powered by Link"
+
+#: admin/views/class.impressum-manager-form-factory.php:19
+msgid "Blende den Powered By Link von Impressum Manager aus"
+msgstr "Blende den Powered By Link von Impressum Manager aus"
+
+#: admin/views/class.impressum-manager-form-factory.php:29
+msgid "eRecht24 Link"
+msgstr "eRecht24 Link"
+
+#: admin/views/class.impressum-manager-form-factory.php:39
+msgid ""
+"Blende den Link von eRecht24 aus. Vorsicht: Hierbei kann es zu rechtlichen "
+"Schäden führen."
+msgstr ""
+"Blende den Link von eRecht24 aus. Vorsicht: Hierbei kann es zu rechtlichen "
+"Schäden führen."
+
+#: admin/views/class.impressum-manager-form-factory.php:52
+msgid "No Index"
+msgstr "Keine Indexierung"
+
+#: admin/views/class.impressum-manager-form-factory.php:57
+msgid "Lass die Impressum Seite nicht von Suchmaschinen indexieren."
+msgstr "Lass die Impressum Seite nicht von Suchmaschinen indexieren."
+
+#: admin/views/class.impressum-manager-form-factory.php:62
+msgid "E-Mail als Bild"
+msgstr "E-Mail als Bild"
+
+#: admin/views/class.impressum-manager-form-factory.php:67
+msgid "Zeige E-Mail als Bild um Spam zu vermeiden"
+msgstr "Zeige E-Mail als Bild um Spam zu vermeiden"
+
+#: admin/views/class.impressum-manager-form-factory.php:81
+msgid "Impressum Inhalt Einstellungen"
+msgstr "Impressum Inhalt Einstellungen"
+
+#: admin/views/class.impressum-manager-form-factory.php:85
+msgid "Haftungsausschluss (Disclaimer)"
+msgstr "Haftungsausschluss (Disclaimer)"
+
+#: admin/views/class.impressum-manager-form-factory.php:91
+msgid "Füge einen Disclaimer in dein Impressum ein."
+msgstr "Füge einen Disclaimer in dein Impressum ein."
+
+#: admin/views/class.impressum-manager-form-factory.php:97
+msgid "Allgemine Datenschutzerklärung"
+msgstr "Allgemine Datenschutzerklärung"
+
+#: admin/views/class.impressum-manager-form-factory.php:103
+msgid "Füge eine allgemeine Datenschutzerklärung in dein Impressum ein."
+msgstr "Füge eine allgemeine Datenschutzerklärung in dein Impressum ein."
+
+#: admin/views/class.impressum-manager-form-factory.php:109
+msgid "Datenschutzerklärung für Facebook"
+msgstr "Datenschutzerklärung für Facebook"
+
+#: admin/views/class.impressum-manager-form-factory.php:115
+msgid ""
+"Füge eine Datenschutzerklärung für die Nutzung von Facebook Elementen in "
+"dein Impressum ein."
+msgstr ""
+"Füge eine Datenschutzerklärung für die Nutzung von Facebook Elementen in "
+"dein Impressum ein."
+
+#: admin/views/class.impressum-manager-form-factory.php:121
+msgid "Datenschutzerklärung für Google"
+msgstr "Datenschutzerklärung für Google"
+
+#: admin/views/class.impressum-manager-form-factory.php:127
+msgid ""
+"Füge eine Datenschutzerklärung für die Nutzung von <b>Google Analytics</b> "
+"in dein Impressum ein."
+msgstr ""
+"Füge eine Datenschutzerklärung für die Nutzung von <b>Google Analytics</b> "
+"in dein Impressum ein."
+
+#: admin/views/class.impressum-manager-form-factory.php:133
+msgid ""
+"Füge eine Datenschutzerklärung für die Nutzung von <b>Google Adsense</b> in "
+"dein Impressum ein."
+msgstr ""
+"Füge eine Datenschutzerklärung für die Nutzung von <b>Google Adsense</b> in "
+"dein Impressum ein."
+
+#: admin/views/class.impressum-manager-form-factory.php:139
+msgid ""
+"Füge eine Datenschutzerklärung für die Nutzung von <b>Google +1</b> in dein "
+"Impressum ein."
+msgstr ""
+"Füge eine Datenschutzerklärung für die Nutzung von <b>Google +1</b> in dein "
+"Impressum ein."
+
+#: admin/views/class.impressum-manager-form-factory.php:145
+msgid "Datenschutzerklärung für Twitter"
+msgstr "Datenschutzerklärung für Twitter"
+
+#: admin/views/class.impressum-manager-form-factory.php:151
+msgid ""
+"Füge eine Datenschutzerklärung für die Nutzung von Twitter Elementen in dein "
+"Impressum ein."
+msgstr ""
+"Füge eine Datenschutzerklärung für die Nutzung von Twitter Elementen in dein "
+"Impressum ein."
+
+#: admin/views/class.impressum-manager-form-factory.php:157
+msgid "Zusatzfeld"
+msgstr "Zusatzfeld"
+
+#: admin/views/class.impressum-manager-form-factory.php:180
+#: admin/views/class.impressum-manager-form-factory.php:266
+msgid "Vollständiger Name"
+msgstr "Vollständiger Name"
+
+#: admin/views/class.impressum-manager-form-factory.php:184
+msgid "Firmenname inkl. Rechtsform"
+msgstr "Firmenname inkl. Rechtsform"
+
+#: admin/views/class.impressum-manager-form-factory.php:191
+msgid "Art der Person"
+msgstr "Art der Person"
+
+#: admin/views/class.impressum-manager-form-factory.php:200
+msgid "Privatperson"
+msgstr "Privatperson"
+
+#: admin/views/class.impressum-manager-form-factory.php:209
+msgid "Juristische Person (z.B. Firma, Verein, Organisation, Einrichtung)"
+msgstr "Juristische Person (z.B. Firma, Verein, Organisation, Einrichtung)"
+
+#: admin/views/class.impressum-manager-form-factory.php:221
+msgid "Rechtsform"
+msgstr "Rechtsform"
+
+#: admin/views/class.impressum-manager-form-factory.php:226
+#: includes/class.impressum-manager-shortcode-manager.php:128
+msgid "Einzelunternehmen"
+msgstr "Einzelunternehmen"
+
+#: admin/views/class.impressum-manager-form-factory.php:227
+#: includes/class.impressum-manager-shortcode-manager.php:131
+msgid "Stille Gesellschaft"
+msgstr "Stille Gesellschaft"
+
+#: admin/views/class.impressum-manager-form-factory.php:228
+#: includes/class.impressum-manager-shortcode-manager.php:134
+msgid "Offene Handelsgesellschaft (OHG)"
+msgstr "Offene Handelsgesellschaft (OHG)"
+
+#: admin/views/class.impressum-manager-form-factory.php:229
+#: includes/class.impressum-manager-shortcode-manager.php:137
+msgid "Kommanditgesellschaft (KG)"
+msgstr "Kommanditgesellschaft (KG)"
+
+#: admin/views/class.impressum-manager-form-factory.php:230
+#: includes/class.impressum-manager-shortcode-manager.php:140
+msgid "Gesellschaft bürgerlichen Rechts (GdR)"
+msgstr "Gesellschaft bürgerlichen Rechts (GdR)"
+
+#: admin/views/class.impressum-manager-form-factory.php:231
+#: includes/class.impressum-manager-shortcode-manager.php:143
+msgid "Aktiengesellschaft (AG)"
+msgstr "Aktiengesellschaft (AG)"
+
+#: admin/views/class.impressum-manager-form-factory.php:232
+#: includes/class.impressum-manager-shortcode-manager.php:146
+msgid "Kommanditgesellschaft auf Aktien (KGaA)"
+msgstr "Kommanditgesellschaft auf Aktien (KGaA)"
+
+#: admin/views/class.impressum-manager-form-factory.php:233
+#: includes/class.impressum-manager-shortcode-manager.php:149
+msgid "Gesellschaft mit beschränkter Haftung (GmbH)"
+msgstr "Gesellschaft mit beschränkter Haftung (GmbH)"
+
+#: admin/views/class.impressum-manager-form-factory.php:234
+#: includes/class.impressum-manager-shortcode-manager.php:152
+msgid "Genossenschaft (eG)"
+msgstr "Genossenschaft (eG)"
+
+#: admin/views/class.impressum-manager-form-factory.php:259
+msgid "Angaben zur Organisation"
+msgstr "Angaben zur Organisation"
+
+#: admin/views/class.impressum-manager-form-factory.php:271
+msgid "Straße & Hausnummer"
+msgstr "Straße & Hausnummer"
+
+#: admin/views/class.impressum-manager-form-factory.php:275
+msgid "Adresszusatz"
+msgstr "Adresszusatz"
+
+#: admin/views/class.impressum-manager-form-factory.php:280
+msgid "Ort"
+msgstr "Ort"
+
+#: admin/views/class.impressum-manager-form-factory.php:285
+msgid "PLZ"
+msgstr "PLZ"
+
+#: admin/views/class.impressum-manager-form-factory.php:290
+msgid "Land"
+msgstr "Land"
+
+#: admin/views/class.impressum-manager-form-factory.php:324
+msgid "Berufshaftpflichtversicherung"
+msgstr "Berufshaftpflichtversicherung"
+
+#: admin/views/class.impressum-manager-form-factory.php:330
+msgid "Name und Anschrift"
+msgstr "Name und Anschrift"
+
+#: admin/views/class.impressum-manager-form-factory.php:336
+msgid "Geltungsraum"
+msgstr "Geltungsraum"
+
+#: admin/views/class.impressum-manager-form-factory.php:346
+msgid "Telefonnummer (inkl. Vorwahl)"
+msgstr "Telefonnummer (inkl. Vorwahl)"
+
+#: admin/views/class.impressum-manager-form-factory.php:361
+msgid "Faxnummer (optional)"
+msgstr "Faxnummer (optional)"
+
+#: admin/views/class.impressum-manager-form-factory.php:375
+msgid "E-Mail Adresse"
+msgstr "E-Mail Adresse"
+
+#: admin/views/class.impressum-manager-form-factory.php:391
+msgid "Vertretungsberechtigte Persone(n)"
+msgstr "Vertretungsberechtigte Persone(n)"
+
+#: admin/views/class.impressum-manager-form-factory.php:396
+msgid "Namen und Vornamen"
+msgstr "Namen und Vornamen"
+
+#: admin/views/class.impressum-manager-form-factory.php:408
+msgid "Umsatzsteuer ID"
+msgstr "Umsatzsteuer ID"
+
+#: admin/views/class.impressum-manager-form-factory.php:443
+msgid "Register"
+msgstr "Register"
+
+#: admin/views/class.impressum-manager-form-factory.php:448
+#: includes/class.impressum-manager-shortcode-manager.php:107
+#: includes/impressum/class.impressum-manager-impressum-factory.php:225
+#: includes/impressum/class.impressum-manager-impressum-factory.php:240
+msgid "Kein Register"
+msgstr "Kein Register"
+
+#: admin/views/class.impressum-manager-form-factory.php:449
+#: includes/class.impressum-manager-shortcode-manager.php:110
+#: includes/impressum/class.impressum-manager-impressum-factory.php:228
+msgid "Genossenschaftsregister"
+msgstr "Genossenschaftsregister"
+
+#: admin/views/class.impressum-manager-form-factory.php:450
+#: includes/class.impressum-manager-shortcode-manager.php:113
+#: includes/impressum/class.impressum-manager-impressum-factory.php:231
+msgid "Handelsregister"
+msgstr "Handelsregister"
+
+#: admin/views/class.impressum-manager-form-factory.php:451
+#: includes/class.impressum-manager-shortcode-manager.php:116
+#: includes/impressum/class.impressum-manager-impressum-factory.php:234
+msgid "Partnerschaftsregister"
+msgstr "Partnerschaftsregister"
+
+#: admin/views/class.impressum-manager-form-factory.php:452
+#: includes/class.impressum-manager-shortcode-manager.php:119
+#: includes/impressum/class.impressum-manager-impressum-factory.php:237
+msgid "Vereinsregister"
+msgstr "Vereinsregister"
+
+#: admin/views/class.impressum-manager-form-factory.php:476
+msgid "Registergericht"
+msgstr "Registergericht"
+
+#: admin/views/class.impressum-manager-form-factory.php:484
+msgid "Registernummer"
+msgstr "Registernummer"
+
+#: admin/views/class.impressum-manager-form-factory.php:499
+msgid "Aufsichtsbehörde "
+msgstr "Aufsichtsbehörde "
+
+#: admin/views/class.impressum-manager-form-factory.php:537
+msgid "Reglementierter Beruf"
+msgstr "Reglementierter Beruf"
+
+#: admin/views/class.impressum-manager-form-factory.php:546
+msgid "Gesetzliche Berufsbezeichnung"
+msgstr "Gesetzliche Berufsbezeichnung"
+
+#: admin/views/class.impressum-manager-form-factory.php:551
+msgid "Staat, in dem die Berufsbezeichnung verliehen wurde"
+msgstr "Staat, in dem die Berufsbezeichnung verliehen wurde"
+
+#: admin/views/class.impressum-manager-form-factory.php:557
+msgid "Berfusrechtliche Regelungen (Bezeichnung)"
+msgstr "Berfusrechtliche Regelungen (Bezeichnung)"
+
+#: admin/views/class.impressum-manager-form-factory.php:562
+msgid "Kammer, der Sie angehören"
+msgstr "Kammer, der Sie angehören"
+
+#: admin/views/class.impressum-manager-form-factory.php:567
+msgid "URL zu gesetzl. Regelungen"
+msgstr "URL zu gesetzl. Regelungen"
+
+#: admin/views/class.impressum-manager-form-factory.php:579
+msgid "Bildquellen"
+msgstr "Bildquellen"
+
+#: admin/views/class.impressum-manager-form-factory.php:583
+msgid "z.B. Max Mustermann, http://www.fotolia.com"
+msgstr "z.B. Max Mustermann, http://www.fotolia.com"
+
+#: admin/views/class.impressum-manager-form-factory.php:620
+msgid "journalistisch-redaktionelle Inhalte"
+msgstr "journalistisch-redaktionelle Inhalte"
+
+#: admin/views/class.impressum-manager-form-factory.php:625
+msgid ""
+"Vor-, Nachname inkl. Anschrift angeben. Bei mehreren Verantwortlichen die\n"
+"                                        Verantwortungen entsprechend mit "
+"angeben."
+msgstr ""
+"Vor-, Nachname inkl. Anschrift angeben. Bei mehreren Verantwortlichen die\n"
+"                                        Verantwortungen entsprechend mit "
+"angeben."
+
+#: admin/views/impressum-manager-config.php:6
+msgid "Konfiguriere dein Impressum."
+msgstr "Konfiguriere dein Impressum."
+
+#: admin/views/impressum-manager-config.php:8
+msgid ""
+"Hier hast du die Möglichkeit mit einem Klick zu entscheiden, ob du dein "
+"importiertes Impressum nutzen möchtest, oder das generierte Impressum von "
+"Impressum Manager."
+msgstr ""
+"Hier hast du die Möglichkeit mit einem Klick zu entscheiden, ob du dein "
+"importiertes Impressum nutzen möchtest, oder das generierte Impressum von "
+"Impressum Manager."
+
+#: admin/views/impressum-manager-config.php:15
+msgid "Importiertes Impressum nutzen"
+msgstr "Importiertes Impressum nutzen"
+
+#: admin/views/impressum-manager-config.php:21
+msgid "Aktiviere das importierte Impressum anstatt das generierte Impressum"
+msgstr "Aktiviere das importierte Impressum anstatt das generierte Impressum"
+
+#: admin/views/impressum-manager-config.php:33
+msgid "Zurück zur Vorschau"
+msgstr "Zurück zur Vorschau"
+
+#: admin/views/impressum-manager-config.php:38
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/views/impressum-manager-config.php:40
+msgid "Kontaktdaten"
+msgstr "Kontaktdaten"
+
+#: admin/views/impressum-manager-config.php:42
+msgid "Impressum Fields"
+msgstr "Impressum Texte"
+
+#: admin/views/impressum-manager-config.php:44
+msgid "Import"
+msgstr "Import"
+
+#: admin/views/impressum-manager-main.php:13
+#: admin/views/impressum-manager-start.php:22
+#: admin/views/tutorial/impressum-manager-tutorial-page1.php:2
+#: admin/views/tutorial/impressum-manager-tutorial-page2.php:2
+#: admin/views/tutorial/impressum-manager-tutorial-page3.php:2
+#: admin/views/tutorial/impressum-manager-tutorial-page4.php:2
+msgid "Impressum Manager"
+msgstr "Impressum Manager"
+
+#: admin/views/impressum-manager-main.php:22
+msgid "Dein Impressum ist leer!"
+msgstr "Dein Impressum ist leer!"
+
+#: admin/views/impressum-manager-main.php:26
+msgid "Wähle eine der Optionen aus, um dein Impressum zu erstellen."
+msgstr "Wähle eine der Optionen aus, um dein Impressum zu erstellen."
+
+#: admin/views/impressum-manager-main.php:37
+msgid "Impressum generieren"
+msgstr "Impressum generieren"
+
+#: admin/views/impressum-manager-main.php:40
+msgid "oder"
+msgstr "oder"
+
+#: admin/views/impressum-manager-main.php:47
+msgid "Impressum importieren"
+msgstr "Impressum importieren"
+
+#: admin/views/impressum-manager-main.php:54
+msgid "Alternativ kannst du auch direkt zu den"
+msgstr "Alternativ kannst du auch direkt zu den"
+
+#: admin/views/impressum-manager-main.php:59
+msgid "Einstellungen"
+msgstr "Einstellungen"
+
+#: admin/views/impressum-manager-main.php:85
+msgid "Konfigurieren"
+msgstr "Konfigurieren"
+
+#: admin/views/impressum-manager-main.php:88
+msgid "Wähle einen shortcode aus und schau dir die Vorschau an! "
+msgstr "Wähle einen shortcode aus und schau dir die Vorschau an! "
+
+#: admin/views/impressum-manager-main.php:92
+msgid "Shortcode: "
+msgstr "Shortcode: "
+
+#: admin/views/impressum-manager-start.php:26
+msgid ""
+"Willkommen bei Impressum-Manager. Dieses Plugin hilft dir deine Webseite(n) "
+"rechtsicher zu machen ..."
+msgstr ""
+"Willkommen bei Impressum-Manager. Dieses Plugin hilft dir deine Webseite(n) "
+"rechtsicher zu machen ..."
+
+#: admin/views/impressum-manager-start.php:29
+msgid "Bestätigung des Warnhinweises"
+msgstr "Bestätigung des Warnhinweises"
+
+#: admin/views/impressum-manager-start.php:31
+msgid ""
+"Ich weiß, dass ich die Nutzung der Impressum, Datenschutz und "
+"Haftungsauschluss Inhalte auf eigene Gefahr verwende. Mir ist bewusst, dass "
+"Impressum Manager keine Gewährleistung auf Schadenersatz anbietet, sofern "
+"rechtliche Schäden bzgl. meiner Webseite durch die Nutzung von dem Impressum "
+"Manager Wordpress Plugin entstanden sind. "
+msgstr ""
+"Ich weiß, dass ich die Nutzung der Impressum, Datenschutz und "
+"Haftungsauschluss Inhalte auf eigene Gefahr verwende. Mir ist bewusst, dass "
+"Impressum Manager keine Gewährleistung auf Schadenersatz anbietet, sofern "
+"rechtliche Schäden bzgl. meiner Webseite durch die Nutzung von dem Impressum "
+"Manager Wordpress Plugin entstanden sind. "
+
+#: admin/views/impressum-manager-start.php:37
+msgid "Ich bestätige hiermit, dass ich das Plugin auf eigene Gefahr nutze."
+msgstr "Ich bestätige hiermit, dass ich das Plugin auf eigene Gefahr nutze."
+
+#: admin/views/impressum-manager-start.php:42
+msgid "In 4 Schritten zur rechtssicheren Webseite"
+msgstr "In 4 Schritten zur rechtssicheren Webseite"
+
+#: admin/views/impressum-manager-start.php:43
+msgid ""
+"Mit dem Impressum-Manager kannst du deine Webseite schnell rechtssicher "
+"machen, indem du ..."
+msgstr ""
+"Mit dem Impressum-Manager kannst du deine Webseite schnell rechtssicher "
+"machen, indem du ..."
+
+#: admin/views/impressum-manager-start.php:51
+msgid "Impressum konfigurieren"
+msgstr "Impressum konfigurieren"
+
+#: admin/views/impressum-manager-start.php:55
+msgid "Später Konfigurieren"
+msgstr "Später Konfigurieren"
+
+#: admin/views/impressum-manager-start.php:56
+msgid ""
+"Das Impressum lässt sich auch jederzeit später konfigureren. Wenn du erst "
+"die Einstellungen sehen möchstest, klicke hier auf den Button."
+msgstr ""
+"Das Impressum lässt sich auch jederzeit später konfigureren. Wenn du erst "
+"die Einstellungen sehen möchstest, klicke hier auf den Button."
+
+#: admin/views/impressum-manager-start.php:63
+msgid "Zu den Einstellungen"
+msgstr "Zu den Einstellungen"
+
+#: admin/views/tabs/impressum-manager-fields-tab.php:56
+msgid "Update Impressum Fields"
+msgstr "Update Impressum Fields"
+
+#: admin/views/tabs/impressum-manager-fields-tab.php:83
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: admin/views/tabs/impressum-manager-general-tab.php:20
+#: admin/views/tabs/impressum-manager-import-tab.php:48
+#: admin/views/tabs/impressum-manager-settings-tab.php:27
+msgid "Impressum aktualisieren"
+msgstr "Impressum aktualisieren"
+
+#: admin/views/tabs/impressum-manager-import-tab.php:11
+msgid "URL zum Impressum"
+msgstr "URL zum Impressum"
+
+#: admin/views/tabs/impressum-manager-import-tab.php:21
+msgid "URL zum Datenschutz"
+msgstr "URL zum Datenschutz"
+
+#: admin/views/tabs/impressum-manager-import-tab.php:30
+msgid "URL zu den AGB"
+msgstr "URL zu den AGB"
+
+#: admin/views/tabs/impressum-manager-import-tab.php:39
+msgid "URL zum Disclaimer"
+msgstr "URL zum Disclaimer"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page1.php:9
+msgid "Schritt 1/4"
+msgstr "Schritt 1/4"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page1.php:16
+#: admin/views/tutorial/impressum-manager-tutorial-page2.php:14
+#: admin/views/tutorial/impressum-manager-tutorial-page3.php:14
+#: admin/views/tutorial/impressum-manager-tutorial-page4.php:14
+msgid "Abbrechen"
+msgstr "Abbrechen"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page1.php:43
+#: admin/views/tutorial/impressum-manager-tutorial-page2.php:45
+#: admin/views/tutorial/impressum-manager-tutorial-page3.php:40
+msgid "Nächster Schritt"
+msgstr "Nächster Schritt"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page2.php:7
+msgid "Schritt 2/4"
+msgstr "Schritt 2/4"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page2.php:40
+#: admin/views/tutorial/impressum-manager-tutorial-page3.php:35
+#: admin/views/tutorial/impressum-manager-tutorial-page4.php:35
+msgid "Schritt zurück"
+msgstr "Schritt zurück"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page3.php:7
+msgid "Schritt 3/4"
+msgstr "Schritt 3/4"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page4.php:7
+msgid "Schritt 4/4"
+msgstr "Schritt 4/4"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page4.php:40
+msgid "Impressum speichern"
+msgstr "Impressum speichern"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:37
+msgid "<h2>Angaben gemäß § 5 TMG:</h2>"
+msgstr "<h2>Angaben gemäß § 5 TMG:</h2>"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:64
+msgid ""
+"<p>Quelle: <em><a rel=\"nofollow\" href=\"http://www.e-recht24.de/impressum-"
+"generator.html\">http://www.e-recht24.de</a></em></p>"
+msgstr ""
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:68
+msgid ""
+"<p>Plugin von <a href=\"http://www.impressum-manager.com\">Impressum "
+"Manager</a></p>"
+msgstr ""
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:316
+msgid "Berufsbezeichnung"
+msgstr "Berufsbezeichnung"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:319
+msgid "Zuständige Kammer"
+msgstr "Zuständige Kammer"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:322
+msgid "Verliehen durch"
+msgstr "Verliehen durch"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:325
+msgid "Es gelten folgende berufsrechtliche Regelungen"
+msgstr "Es gelten folgende berufsrechtliche Regelungen"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:331
+msgid "Regelungen einsehbar unter"
+msgstr "Regelungen einsehbar unter"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:381
+msgid "<h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h2>"
+msgstr "<h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h2>"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:431
+msgid "Quellenangaben für die verwendeten Bilder und Grafiken:"
+msgstr "Quellenangaben für die verwendeten Bilder und Grafiken:"
+
+#~ msgid "Variablen"
+#~ msgstr "Variablen"
+
+#~ msgid ""
+#~ "Es gibt die Möglichkeit die gespeicherten Werte in den Settings überall "
+#~ "auf der Webseite mit einem Shortcode aufzurufen. Der Shortcode lautet wie "
+#~ "folgt: <br><br><b>[impressum_manager var=\"VARIABLE\"]</b><br><br>Jedoch "
+#~ "muss das Wort Variable mit eines der folgenden Werten ersetzt werden: "
+#~ "<br><ul><li>company name</li><li>address</li><li>address axtra</"
+#~ "li><li>place</li><li>zip</li><li>county</li><li>fax</li><li>email</"
+#~ "li><li>phone</li><li>authorized person</li><li>vat</li><li>register "
+#~ "number</li><li>regulated profession</li><li>state</li><li>state rules</"
+#~ "li><li>responsible persons</li><li>responsible chamber</li><li>image "
+#~ "source</li><li>register</li><li>form</li></ul>"
+#~ msgstr ""
+#~ "Es gibt die Möglichkeit die gespeicherten Werte in den Settings überall "
+#~ "auf der Webseite mit einem Shortcode aufzurufen. Der Shortcode lautet wie "
+#~ "folgt: <br><br><b>[impressum_manager var=\"VARIABLE\"]</b><br><br>Jedoch "
+#~ "muss das Wort Variable mit eines der folgenden Werten ersetzt werden: "
+#~ "<br><ul><li>company name</li><li>address</li><li>address axtra</"
+#~ "li><li>place</li><li>zip</li><li>county</li><li>fax</li><li>email</"
+#~ "li><li>phone</li><li>authorized person</li><li>vat</li><li>register "
+#~ "number</li><li>regulated profession</li><li>state</li><li>state rules</"
+#~ "li><li>responsible persons</li><li>responsible chamber</li><li>image "
+#~ "source</li><li>register</li><li>form</li></ul>"
+
+#~ msgid "Wähle dein Land ..."
+#~ msgstr "Wähle dein Land ..."
+
+#~ msgid "authorized person"
+#~ msgstr "authorized person"
+
+#~ msgid "contact"
+#~ msgstr "contact"
+
+#~ msgid "register"
+#~ msgstr "register"
+
+#~ msgid "vat"
+#~ msgstr "vat"
+
+#~ msgid "regulatory authority"
+#~ msgstr "regulatory authority"
+
+#~ msgid "professional liability insurance"
+#~ msgstr "professional liability insurance"
+
+#~ msgid "responsible person"
+#~ msgstr "responsible person"
+
+#~ msgid "extra field"
+#~ msgstr "extra field"
+
+#~ msgid "privacy policy"
+#~ msgstr "privacy policy"
+
+#~ msgid "Importiertes Impressum"
+#~ msgstr "Importiertes Impressum"
+
+#~ msgid "Preview"
+#~ msgstr "Vorschau"
+
+#~ msgid "Show E-Mail as Image to prevent Spam."
+#~ msgstr "Zeige die E-Mail als ein Bild um Spam vorzubeugen."
+
+#~ msgid ""
+#~ "Es gibt die Möglichkeit die gespeicherten Werte in den Settings überall "
+#~ "auf der Webseite mit einem Shortcode aufzurufen. Der Shortcode lautet wie "
+#~ "folgt: <br><br><b>[impressum_manager var=\"VARIABLE\"]</b><br><br>Jedoch "
+#~ "muss das Wort Variable mit eines der folgenden Werten ersetzt werden: "
+#~ "1231242132131"
+#~ msgstr ""
+#~ "Es gibt die Möglichkeit die gespeicherten Werte in den Settings überall "
+#~ "auf der Webseite mit einem Shortcode aufzurufen. Der Shortcode lautet wie "
+#~ "folgt: <br><br><b>[impressum_manager var=\"VARIABLE\"]</b><br><br>Jedoch "
+#~ "muss das Wort Variable mit eines der folgenden Werten ersetzt werden: "
+#~ "1231242132131"
+
+#~ msgid ""
+#~ "<h1>Haftungsausschluss (Disclaimer)</h1><p><strong>Haftung für Inhalte</"
+#~ "strong></p> <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für "
+#~ "eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen "
+#~ "verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch "
+#~ "nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen "
+#~ "zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige "
+#~ "Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der "
+#~ "Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon "
+#~ "unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt "
+#~ "der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden "
+#~ "von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend "
+#~ "entfernen.</p> <p><strong>Haftung für Links</strong></p> <p>Unser Angebot "
+#~ "enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen "
+#~ "Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine "
+#~ "Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der "
+#~ "jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die "
+#~ "verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche "
+#~ "Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der "
+#~ "Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der "
+#~ "verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer "
+#~ "Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen "
+#~ "werden wir derartige Links umgehend entfernen.</p> "
+#~ "<p><strong>Urheberrecht</strong></p> <p>Die durch die Seitenbetreiber "
+#~ "erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen "
+#~ "Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art "
+#~ "der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der "
+#~ "schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads "
+#~ "und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen "
+#~ "Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom "
+#~ "Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. "
+#~ "Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten "
+#~ "Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten "
+#~ "wir um einen entsprechenden Hinweis. Bei Bekanntwerden von "
+#~ "Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>"
+#~ msgstr ""
+#~ "<h1>Haftungsausschluss (Disclaimer)</h1><p><strong>Haftung für Inhalte</"
+#~ "strong></p> <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für "
+#~ "eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen "
+#~ "verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch "
+#~ "nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen "
+#~ "zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige "
+#~ "Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der "
+#~ "Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon "
+#~ "unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt "
+#~ "der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden "
+#~ "von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend "
+#~ "entfernen.</p> <p><strong>Haftung für Links</strong></p> <p>Unser Angebot "
+#~ "enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen "
+#~ "Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine "
+#~ "Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der "
+#~ "jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die "
+#~ "verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche "
+#~ "Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der "
+#~ "Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der "
+#~ "verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer "
+#~ "Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen "
+#~ "werden wir derartige Links umgehend entfernen.</p> "
+#~ "<p><strong>Urheberrecht</strong></p> <p>Die durch die Seitenbetreiber "
+#~ "erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen "
+#~ "Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art "
+#~ "der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der "
+#~ "schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads "
+#~ "und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen "
+#~ "Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom "
+#~ "Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. "
+#~ "Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten "
+#~ "Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten "
+#~ "wir um einen entsprechenden Hinweis. Bei Bekanntwerden von "
+#~ "Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>"
+
+#~ msgid "<h2>Datenschutzerklaärung:</h2>"
+#~ msgstr "<h2>Datenschutzerklaärung:</h2>"
+
+#~ msgid ""
+#~ "<p><strong>Datenschutz</strong></p><p>Die Nutzung unserer Webseite ist in "
+#~ "der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren "
+#~ "Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-"
+#~ "Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf "
+#~ "freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung "
+#~ "nicht an Dritte weitergegeben. </p><p>Wir weisen darauf hin, dass die "
+#~ "Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) "
+#~ "Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor "
+#~ "dem Zugriff durch Dritte ist nicht möglich. </p><p>Der Nutzung von im "
+#~ "Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte "
+#~ "zur Übersendung von nicht ausdrücklich angeforderter Werbung und "
+#~ "Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die "
+#~ "Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im "
+#~ "Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-"
+#~ "Mails, vor.</p>"
+#~ msgstr ""
+#~ "<p><strong>Datenschutz</strong></p><p>Die Nutzung unserer Webseite ist in "
+#~ "der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren "
+#~ "Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-"
+#~ "Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf "
+#~ "freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung "
+#~ "nicht an Dritte weitergegeben. </p><p>Wir weisen darauf hin, dass die "
+#~ "Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) "
+#~ "Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor "
+#~ "dem Zugriff durch Dritte ist nicht möglich. </p><p>Der Nutzung von im "
+#~ "Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte "
+#~ "zur Übersendung von nicht ausdrücklich angeforderter Werbung und "
+#~ "Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die "
+#~ "Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im "
+#~ "Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-"
+#~ "Mails, vor.</p>"
+
+#~ msgid ""
+#~ "<p><strong>Datenschutzerkl&auml;rung f&uuml;r die Nutzung von Facebook-"
+#~ "Plugins (Like-Button)</strong></p> <p>Auf unseren Seiten sind Plugins des "
+#~ "sozialen Netzwerks Facebook (Facebook Inc., 1601 Willow Road, Menlo Park, "
+#~ "California, 94025, USA) integriert. Die Facebook-Plugins erkennen Sie an "
+#~ "dem Facebook-Logo oder dem &quot;Like-Button&quot; (&quot;Gef&auml;llt "
+#~ "mir&quot;) auf unserer Seite. Eine &Uuml;bersicht &uuml;ber die Facebook-"
+#~ "Plugins finden Sie hier: <a href=\"http://developers.facebook.com/docs/"
+#~ "plugins/\" target=\"_blank\">http://developers.facebook.com/docs/plugins/"
+#~ "</a>.<br /> Wenn Sie unsere Seiten besuchen, wird &uuml;ber das Plugin "
+#~ "eine direkte Verbindung zwischen Ihrem Browser und dem Facebook-Server "
+#~ "hergestellt. Facebook erh&auml;lt dadurch die Information, dass Sie mit "
+#~ "Ihrer IP-Adresse unsere Seite besucht haben. Wenn Sie den Facebook &quot;"
+#~ "Like-Button&quot; anklicken w&auml;hrend Sie in Ihrem Facebook-Account "
+#~ "eingeloggt sind, k&ouml;nnen Sie die Inhalte unserer Seiten auf Ihrem "
+#~ "Facebook-Profil verlinken. Dadurch kann Facebook den Besuch unserer "
+#~ "Seiten Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als "
+#~ "Anbieter der Seiten keine Kenntnis vom Inhalt der &uuml;bermittelten "
+#~ "Daten sowie deren Nutzung durch Facebook erhalten. Weitere Informationen "
+#~ "hierzu finden Sie in der Datenschutzerkl&auml;rung von facebook unter <a "
+#~ "href=\"http://de-de.facebook.com/policy.php\" target=\"_blank\"> http://"
+#~ "de-de.facebook.com/policy.php</a></p> <p>Wenn Sie nicht w&uuml;nschen, "
+#~ "dass Facebook den Besuch unserer Seiten Ihrem Facebook-Nutzerkonto "
+#~ "zuordnen kann, loggen Sie sich bitte aus Ihrem Facebook-Benutzerkonto aus."
+#~ "</p>"
+#~ msgstr ""
+#~ "<p><strong>Datenschutzerkl&auml;rung f&uuml;r die Nutzung von Facebook-"
+#~ "Plugins (Like-Button)</strong></p> <p>Auf unseren Seiten sind Plugins des "
+#~ "sozialen Netzwerks Facebook (Facebook Inc., 1601 Willow Road, Menlo Park, "
+#~ "California, 94025, USA) integriert. Die Facebook-Plugins erkennen Sie an "
+#~ "dem Facebook-Logo oder dem &quot;Like-Button&quot; (&quot;Gef&auml;llt "
+#~ "mir&quot;) auf unserer Seite. Eine &Uuml;bersicht &uuml;ber die Facebook-"
+#~ "Plugins finden Sie hier: <a href=\"http://developers.facebook.com/docs/"
+#~ "plugins/\" target=\"_blank\">http://developers.facebook.com/docs/plugins/"
+#~ "</a>.<br /> Wenn Sie unsere Seiten besuchen, wird &uuml;ber das Plugin "
+#~ "eine direkte Verbindung zwischen Ihrem Browser und dem Facebook-Server "
+#~ "hergestellt. Facebook erh&auml;lt dadurch die Information, dass Sie mit "
+#~ "Ihrer IP-Adresse unsere Seite besucht haben. Wenn Sie den Facebook &quot;"
+#~ "Like-Button&quot; anklicken w&auml;hrend Sie in Ihrem Facebook-Account "
+#~ "eingeloggt sind, k&ouml;nnen Sie die Inhalte unserer Seiten auf Ihrem "
+#~ "Facebook-Profil verlinken. Dadurch kann Facebook den Besuch unserer "
+#~ "Seiten Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als "
+#~ "Anbieter der Seiten keine Kenntnis vom Inhalt der &uuml;bermittelten "
+#~ "Daten sowie deren Nutzung durch Facebook erhalten. Weitere Informationen "
+#~ "hierzu finden Sie in der Datenschutzerkl&auml;rung von facebook unter <a "
+#~ "href=\"http://de-de.facebook.com/policy.php\" target=\"_blank\"> http://"
+#~ "de-de.facebook.com/policy.php</a></p> <p>Wenn Sie nicht w&uuml;nschen, "
+#~ "dass Facebook den Besuch unserer Seiten Ihrem Facebook-Nutzerkonto "
+#~ "zuordnen kann, loggen Sie sich bitte aus Ihrem Facebook-Benutzerkonto aus."
+#~ "</p>"
+
+#~ msgid ""
+#~ "<p><strong>Datenschutzerkl&auml;rung f&uuml;r die Nutzung von Google "
+#~ "Analytics</strong></p> <p>Diese Website benutzt Google Analytics, einen "
+#~ "Webanalysedienst der Google Inc. (\"Google\"). Google Analytics verwendet "
+#~ "sog. \"Cookies\", Textdateien, die auf Ihrem Computer gespeichert werden "
+#~ "und die eine Analyse der Benutzung der Website durch Sie erm&ouml;"
+#~ "glichen. Die durch den Cookie erzeugten Informationen &uuml;ber Ihre "
+#~ "Benutzung dieser Website werden in der Regel an einen Server von Google "
+#~ "in den USA &uuml;bertragen und dort gespeichert. Im Falle der Aktivierung "
+#~ "der IP-Anonymisierung auf dieser Webseite wird Ihre IP-Adresse von Google "
+#~ "jedoch innerhalb von Mitgliedstaaten der Europ&auml;ischen Union oder in "
+#~ "anderen Vertragsstaaten des Abkommens &uuml;ber den Europ&auml;ischen "
+#~ "Wirtschaftsraum zuvor gek&uuml;rzt.</p> <p>Nur in Ausnahmef&auml;llen "
+#~ "wird die volle IP-Adresse an einen Server von Google in den USA &uuml;"
+#~ "bertragen und dort gek&uuml;rzt. Im Auftrag des Betreibers dieser Website "
+#~ "wird Google diese Informationen benutzen, um Ihre Nutzung der Website "
+#~ "auszuwerten, um Reports &uuml;ber die Websiteaktivit&auml;ten "
+#~ "zusammenzustellen und um weitere mit der Websitenutzung und der "
+#~ "Internetnutzung verbundene Dienstleistungen gegen&uuml;ber dem "
+#~ "Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von "
+#~ "Ihrem Browser &uuml;bermittelte IP-Adresse wird nicht mit anderen Daten "
+#~ "von Google zusammengef&uuml;hrt.</p> <p>Sie k&ouml;nnen die Speicherung "
+#~ "der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software "
+#~ "verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall "
+#~ "gegebenenfalls nicht s&auml;mtliche Funktionen dieser Website "
+#~ "vollumf&auml;nglich werden nutzen k&ouml;nnen. Sie k&ouml;nnen dar&uuml;"
+#~ "ber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre "
+#~ "Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google "
+#~ "sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie "
+#~ "das unter dem folgenden Link verf&uuml;gbare Browser-Plugin herunterladen "
+#~ "und installieren: <a href=\"http://tools.google.com/dlpage/gaoptout?hl=de"
+#~ "\">http://tools.google.com/dlpage/gaoptout?hl=de</a>.<p>&nbsp;</p>"
+#~ msgstr ""
+#~ "<p><strong>Datenschutzerkl&auml;rung f&uuml;r die Nutzung von Google "
+#~ "Analytics</strong></p> <p>Diese Website benutzt Google Analytics, einen "
+#~ "Webanalysedienst der Google Inc. (\"Google\"). Google Analytics verwendet "
+#~ "sog. \"Cookies\", Textdateien, die auf Ihrem Computer gespeichert werden "
+#~ "und die eine Analyse der Benutzung der Website durch Sie erm&ouml;"
+#~ "glichen. Die durch den Cookie erzeugten Informationen &uuml;ber Ihre "
+#~ "Benutzung dieser Website werden in der Regel an einen Server von Google "
+#~ "in den USA &uuml;bertragen und dort gespeichert. Im Falle der Aktivierung "
+#~ "der IP-Anonymisierung auf dieser Webseite wird Ihre IP-Adresse von Google "
+#~ "jedoch innerhalb von Mitgliedstaaten der Europ&auml;ischen Union oder in "
+#~ "anderen Vertragsstaaten des Abkommens &uuml;ber den Europ&auml;ischen "
+#~ "Wirtschaftsraum zuvor gek&uuml;rzt.</p> <p>Nur in Ausnahmef&auml;llen "
+#~ "wird die volle IP-Adresse an einen Server von Google in den USA &uuml;"
+#~ "bertragen und dort gek&uuml;rzt. Im Auftrag des Betreibers dieser Website "
+#~ "wird Google diese Informationen benutzen, um Ihre Nutzung der Website "
+#~ "auszuwerten, um Reports &uuml;ber die Websiteaktivit&auml;ten "
+#~ "zusammenzustellen und um weitere mit der Websitenutzung und der "
+#~ "Internetnutzung verbundene Dienstleistungen gegen&uuml;ber dem "
+#~ "Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von "
+#~ "Ihrem Browser &uuml;bermittelte IP-Adresse wird nicht mit anderen Daten "
+#~ "von Google zusammengef&uuml;hrt.</p> <p>Sie k&ouml;nnen die Speicherung "
+#~ "der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software "
+#~ "verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall "
+#~ "gegebenenfalls nicht s&auml;mtliche Funktionen dieser Website "
+#~ "vollumf&auml;nglich werden nutzen k&ouml;nnen. Sie k&ouml;nnen dar&uuml;"
+#~ "ber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre "
+#~ "Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google "
+#~ "sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie "
+#~ "das unter dem folgenden Link verf&uuml;gbare Browser-Plugin herunterladen "
+#~ "und installieren: <a href=\"http://tools.google.com/dlpage/gaoptout?hl=de"
+#~ "\">http://tools.google.com/dlpage/gaoptout?hl=de</a>.<p>&nbsp;</p>"
+
+#~ msgid ""
+#~ "<p><strong>Datenschutzerkl&auml;rung f&uuml;r die Nutzung von Google "
+#~ "Adsense</strong></p> <p>Diese Website benutzt Google AdSense, einen "
+#~ "Dienst zum Einbinden von Werbeanzeigen der Google Inc. (&quot;"
+#~ "Google&quot;). Google AdSense verwendet sog. &quot;Cookies&quot;, "
+#~ "Textdateien, die auf Ihrem Computer gespeichert werden und die eine "
+#~ "Analyse der Benutzung der Website erm&ouml;glicht. Google AdSense "
+#~ "verwendet auch so genannte Web Beacons (unsichtbare Grafiken). Durch "
+#~ "diese Web Beacons k&ouml;nnen Informationen wie der Besucherverkehr auf "
+#~ "diesen Seiten ausgewertet werden.</p> <p>Die durch Cookies und Web "
+#~ "Beacons erzeugten Informationen &uuml;ber die Benutzung dieser Website "
+#~ "(einschlie&szlig;lich Ihrer IP-Adresse) und Auslieferung von "
+#~ "Werbeformaten werden an einen Server von Google in den USA &uuml;"
+#~ "bertragen und dort gespeichert. Diese Informationen k&ouml;nnen von "
+#~ "Google an Vertragspartner von Google weiter gegeben werden. Google wird "
+#~ "Ihre IP-Adresse jedoch nicht mit anderen von Ihnen gespeicherten Daten "
+#~ "zusammenf&uuml;hren.</p> <p>Sie k&ouml;nnen die Installation der Cookies "
+#~ "durch eine entsprechende Einstellung Ihrer Browser Software verhindern; "
+#~ "wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls "
+#~ "nicht s&auml;mtliche Funktionen dieser Website voll umf&auml;nglich "
+#~ "nutzen k&ouml;nnen. Durch die Nutzung dieser Website erkl&auml;ren Sie "
+#~ "sich mit der Bearbeitung der &uuml;ber Sie erhobenen Daten durch Google "
+#~ "in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck "
+#~ "einverstanden.</p>"
+#~ msgstr ""
+#~ "<p><strong>Datenschutzerkl&auml;rung f&uuml;r die Nutzung von Google "
+#~ "Adsense</strong></p> <p>Diese Website benutzt Google AdSense, einen "
+#~ "Dienst zum Einbinden von Werbeanzeigen der Google Inc. (&quot;"
+#~ "Google&quot;). Google AdSense verwendet sog. &quot;Cookies&quot;, "
+#~ "Textdateien, die auf Ihrem Computer gespeichert werden und die eine "
+#~ "Analyse der Benutzung der Website erm&ouml;glicht. Google AdSense "
+#~ "verwendet auch so genannte Web Beacons (unsichtbare Grafiken). Durch "
+#~ "diese Web Beacons k&ouml;nnen Informationen wie der Besucherverkehr auf "
+#~ "diesen Seiten ausgewertet werden.</p> <p>Die durch Cookies und Web "
+#~ "Beacons erzeugten Informationen &uuml;ber die Benutzung dieser Website "
+#~ "(einschlie&szlig;lich Ihrer IP-Adresse) und Auslieferung von "
+#~ "Werbeformaten werden an einen Server von Google in den USA &uuml;"
+#~ "bertragen und dort gespeichert. Diese Informationen k&ouml;nnen von "
+#~ "Google an Vertragspartner von Google weiter gegeben werden. Google wird "
+#~ "Ihre IP-Adresse jedoch nicht mit anderen von Ihnen gespeicherten Daten "
+#~ "zusammenf&uuml;hren.</p> <p>Sie k&ouml;nnen die Installation der Cookies "
+#~ "durch eine entsprechende Einstellung Ihrer Browser Software verhindern; "
+#~ "wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls "
+#~ "nicht s&auml;mtliche Funktionen dieser Website voll umf&auml;nglich "
+#~ "nutzen k&ouml;nnen. Durch die Nutzung dieser Website erkl&auml;ren Sie "
+#~ "sich mit der Bearbeitung der &uuml;ber Sie erhobenen Daten durch Google "
+#~ "in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck "
+#~ "einverstanden.</p>"
+
+#~ msgid ""
+#~ "<p><strong>Datenschutzerkl&auml;rung f&uuml;r die Nutzung von Google +1</"
+#~ "strong></p> <p><i>Erfassung und Weitergabe von Informationen:</i><br /> "
+#~ "Mithilfe der Google +1-Schaltfl&auml;che k&ouml;nnen Sie Informationen "
+#~ "weltweit ver&ouml;ffentlichen. &Uuml;ber die Google&nbsp;+1-Schaltfl&auml;"
+#~ "che erhalten Sie und andere Nutzer personalisierte Inhalte von Google und "
+#~ "unseren Partnern. Google speichert sowohl die Information, dass Sie "
+#~ "f&uuml;r einen Inhalt +1 gegeben haben, als auch Informationen &uuml;ber "
+#~ "die Seite, die Sie beim Klicken auf +1 angesehen haben. Ihre +1 k&ouml;"
+#~ "nnen als Hinweise zusammen mit Ihrem Profilnamen und Ihrem Foto in Google-"
+#~ "Diensten, wie etwa in Suchergebnissen oder in Ihrem Google-Profil, oder "
+#~ "an anderen Stellen auf Websites und Anzeigen im Internet eingeblendet "
+#~ "werden.<br /> Google zeichnet Informationen &uuml;ber Ihre +1-"
+#~ "Aktivit&auml;ten auf, um die Google-Dienste f&uuml;r Sie und andere zu "
+#~ "verbessern. Um die Google&nbsp;+1-Schaltfl&auml;che verwenden zu k&ouml;"
+#~ "nnen, ben&ouml;tigen Sie ein weltweit sichtbares, &ouml;ffentliches "
+#~ "Google-Profil, das zumindest den f&uuml;r das Profil gew&auml;hlten Namen "
+#~ "enthalten muss. Dieser Name wird in allen Google-Diensten verwendet. In "
+#~ "manchen F&auml;llen kann dieser Name auch einen anderen Namen ersetzen, "
+#~ "den Sie beim Teilen von Inhalten &uuml;ber Ihr Google-Konto verwendet "
+#~ "haben. Die Identit&auml;t Ihres Google-Profils kann Nutzern angezeigt "
+#~ "werden, die Ihre E-Mail-Adresse kennen oder &uuml;ber andere "
+#~ "identifizierende Informationen von Ihnen verf&uuml;gen.<br /> <br /> "
+#~ "<i>Verwendung der erfassten Informationen:</i><br /> Neben den oben "
+#~ "erl&auml;uterten Verwendungszwecken werden die von Ihnen bereitgestellten "
+#~ "Informationen gem&auml;&szlig; den geltenden Google-"
+#~ "Datenschutzbestimmungen genutzt. Google ver&ouml;ffentlicht m&ouml;"
+#~ "glicherweise zusammengefasste Statistiken &uuml;ber die +1-Aktivit&auml;"
+#~ "ten der Nutzer bzw. gibt diese an Nutzer und Partner weiter, wie etwa "
+#~ "Publisher, Inserenten oder verbundene Websites. </p>"
+#~ msgstr ""
+#~ "<p><strong>Datenschutzerkl&auml;rung f&uuml;r die Nutzung von Google +1</"
+#~ "strong></p> <p><i>Erfassung und Weitergabe von Informationen:</i><br /> "
+#~ "Mithilfe der Google +1-Schaltfl&auml;che k&ouml;nnen Sie Informationen "
+#~ "weltweit ver&ouml;ffentlichen. &Uuml;ber die Google&nbsp;+1-Schaltfl&auml;"
+#~ "che erhalten Sie und andere Nutzer personalisierte Inhalte von Google und "
+#~ "unseren Partnern. Google speichert sowohl die Information, dass Sie "
+#~ "f&uuml;r einen Inhalt +1 gegeben haben, als auch Informationen &uuml;ber "
+#~ "die Seite, die Sie beim Klicken auf +1 angesehen haben. Ihre +1 k&ouml;"
+#~ "nnen als Hinweise zusammen mit Ihrem Profilnamen und Ihrem Foto in Google-"
+#~ "Diensten, wie etwa in Suchergebnissen oder in Ihrem Google-Profil, oder "
+#~ "an anderen Stellen auf Websites und Anzeigen im Internet eingeblendet "
+#~ "werden.<br /> Google zeichnet Informationen &uuml;ber Ihre +1-"
+#~ "Aktivit&auml;ten auf, um die Google-Dienste f&uuml;r Sie und andere zu "
+#~ "verbessern. Um die Google&nbsp;+1-Schaltfl&auml;che verwenden zu k&ouml;"
+#~ "nnen, ben&ouml;tigen Sie ein weltweit sichtbares, &ouml;ffentliches "
+#~ "Google-Profil, das zumindest den f&uuml;r das Profil gew&auml;hlten Namen "
+#~ "enthalten muss. Dieser Name wird in allen Google-Diensten verwendet. In "
+#~ "manchen F&auml;llen kann dieser Name auch einen anderen Namen ersetzen, "
+#~ "den Sie beim Teilen von Inhalten &uuml;ber Ihr Google-Konto verwendet "
+#~ "haben. Die Identit&auml;t Ihres Google-Profils kann Nutzern angezeigt "
+#~ "werden, die Ihre E-Mail-Adresse kennen oder &uuml;ber andere "
+#~ "identifizierende Informationen von Ihnen verf&uuml;gen.<br /> <br /> "
+#~ "<i>Verwendung der erfassten Informationen:</i><br /> Neben den oben "
+#~ "erl&auml;uterten Verwendungszwecken werden die von Ihnen bereitgestellten "
+#~ "Informationen gem&auml;&szlig; den geltenden Google-"
+#~ "Datenschutzbestimmungen genutzt. Google ver&ouml;ffentlicht m&ouml;"
+#~ "glicherweise zusammengefasste Statistiken &uuml;ber die +1-Aktivit&auml;"
+#~ "ten der Nutzer bzw. gibt diese an Nutzer und Partner weiter, wie etwa "
+#~ "Publisher, Inserenten oder verbundene Websites. </p>"
+
+#~ msgid ""
+#~ "<p><strong>Datenschutzerkl&auml;rung f&uuml;r die Nutzung von Twitter</"
+#~ "strong></p> <p>Auf unseren Seiten sind Funktionen des Dienstes Twitter "
+#~ "eingebunden. Diese Funktionen werden angeboten durch die Twitter Inc., "
+#~ "Twitter, Inc. 1355 Market St, Suite 900, San Francisco, CA 94103, USA. "
+#~ "Durch das Benutzen von Twitter und der Funktion &quot;Re-Tweet&quot; "
+#~ "werden die von Ihnen besuchten Webseiten mit Ihrem Twitter-Account "
+#~ "verkn&uuml;pft und anderen Nutzern bekannt gegeben. Dabei werden auch "
+#~ "Daten an Twitter &uuml;bertragen.</p> <p>Wir weisen darauf hin, dass wir "
+#~ "als Anbieter der Seiten keine Kenntnis vom Inhalt der &uuml;bermittelten "
+#~ "Daten sowie deren Nutzung durch Twitter erhalten. Weitere Informationen "
+#~ "hierzu finden Sie in der Datenschutzerkl&auml;rung von Twitter unter <a "
+#~ "href=\"http://twitter.com/privacy\" target=\"_blank\">http://twitter.com/"
+#~ "privacy</a>.</p> <p>Ihre Datenschutzeinstellungen bei Twitter k&ouml;nnen "
+#~ "Sie in den Konto-Einstellungen unter <a href=\"http://twitter.com/account/"
+#~ "settings\" target=\"_blank\">http://twitter.com/account/settings</a> "
+#~ "&auml;ndern.</p><p>"
+#~ msgstr ""
+#~ "<p><strong>Datenschutzerkl&auml;rung f&uuml;r die Nutzung von Twitter</"
+#~ "strong></p> <p>Auf unseren Seiten sind Funktionen des Dienstes Twitter "
+#~ "eingebunden. Diese Funktionen werden angeboten durch die Twitter Inc., "
+#~ "Twitter, Inc. 1355 Market St, Suite 900, San Francisco, CA 94103, USA. "
+#~ "Durch das Benutzen von Twitter und der Funktion &quot;Re-Tweet&quot; "
+#~ "werden die von Ihnen besuchten Webseiten mit Ihrem Twitter-Account "
+#~ "verkn&uuml;pft und anderen Nutzern bekannt gegeben. Dabei werden auch "
+#~ "Daten an Twitter &uuml;bertragen.</p> <p>Wir weisen darauf hin, dass wir "
+#~ "als Anbieter der Seiten keine Kenntnis vom Inhalt der &uuml;bermittelten "
+#~ "Daten sowie deren Nutzung durch Twitter erhalten. Weitere Informationen "
+#~ "hierzu finden Sie in der Datenschutzerkl&auml;rung von Twitter unter <a "
+#~ "href=\"http://twitter.com/privacy\" target=\"_blank\">http://twitter.com/"
+#~ "privacy</a>.</p> <p>Ihre Datenschutzeinstellungen bei Twitter k&ouml;nnen "
+#~ "Sie in den Konto-Einstellungen unter <a href=\"http://twitter.com/account/"
+#~ "settings\" target=\"_blank\">http://twitter.com/account/settings</a> "
+#~ "&auml;ndern.</p><p>"
+
+#~ msgid ""
+#~ "<strong>Auskunft, L&ouml;schung, Sperrung</strong></p> <p>Sie haben "
+#~ "jederzeit das Recht auf unentgeltliche Auskunft &uuml;ber Ihre "
+#~ "gespeicherten personenbezogenen Daten, deren Herkunft und Empf&auml;nger "
+#~ "und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, "
+#~ "Sperrung oder L&ouml;schung dieser Daten. Hierzu sowie zu weiteren Fragen "
+#~ "zum Thema personenbezogene Daten k&ouml;nnen Sie sich jederzeit &uuml;ber "
+#~ "die im Impressum angegeben Adresse des Webseitenbetreibers an uns wenden."
+#~ "</p>"
+#~ msgstr ""
+#~ "<strong>Auskunft, L&ouml;schung, Sperrung</strong></p> <p>Sie haben "
+#~ "jederzeit das Recht auf unentgeltliche Auskunft &uuml;ber Ihre "
+#~ "gespeicherten personenbezogenen Daten, deren Herkunft und Empf&auml;nger "
+#~ "und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, "
+#~ "Sperrung oder L&ouml;schung dieser Daten. Hierzu sowie zu weiteren Fragen "
+#~ "zum Thema personenbezogene Daten k&ouml;nnen Sie sich jederzeit &uuml;ber "
+#~ "die im Impressum angegeben Adresse des Webseitenbetreibers an uns wenden."
+#~ "</p>"
