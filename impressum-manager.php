@@ -22,7 +22,7 @@
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
-define( 'IMPRESSUM_MANAGER_VERSION', '1.0.0' );
+define( 'IMPRESSUM_MANAGER_VERSION', '1.0.1' );
 define( 'SLUG', 'impressum-manager' );
 
 require_once( plugin_dir_path( __FILE__ ) . 'includes/impressum-manager-deactivate.php' );

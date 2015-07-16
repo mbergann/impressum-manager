@@ -49,6 +49,11 @@ Questions can be asked anytime at support@impressum-manager.com
 
 == Changelog ==
 
+= 1.0.1 =
+- placeholders added
+- some minor bugfixes
+- new shortcode display
+
 = 1.0.0 =
 - RELEASE
 - code clean up
