@@ -9,7 +9,7 @@
  * Plugin Name:       Impressum Manager
  * Plugin URI:        http://www.impressum-manager.com
  * Description:       Impressum Generator for your wordpress copy. Manages all points for creating an Impressum.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Marcin Poholski, Christian Jäger
  * Author URI:        http://www.impressum-manager.com
  * License:           GPL-2.0+
