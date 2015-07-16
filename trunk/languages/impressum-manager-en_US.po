@@ -1,0 +1,737 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Impressum Manager\n"
+"POT-Creation-Date: 2015-07-05 16:36+0100\n"
+"PO-Revision-Date: 2015-07-05 16:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class.impressum-manager-admin.php:58
+msgid "Urheber vom Bild"
+msgstr "Owner of the image"
+
+#: admin/class.impressum-manager-admin.php:98
+#, php-format
+msgid ""
+"Dein Wordpress Impressum ist nicht eingerichtet! %s, um deine Webseite "
+"rechtssicher zu machen."
+msgstr ""
+
+#: admin/class.impressum-manager-admin.php:178
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: admin/class.impressum-manager-admin.php:180
+msgid ""
+"Um das Impressum in einem Beitrag oder in einer Seite einzufügen, musst du "
+"einen Shortcode benutzen. Der Shortcode lautet:<br><br> "
+"<b>[impressum_manager]</b><br><br>Hierzu gibt es zusätzliche Parameter. Der "
+"Type Paramter erlaubt es dir Teilstücke vom Impressum wiederzugeben. Hierbei "
+"kannst du <ul><li>Datenschutz</li><li>Haftungsausschluss</li><li>Kontakt</"
+"li><li>Bildquellen</li></ul> verwenden. Dabei wird dein Shortcode "
+"folgendermaßen aussehen:<br><br><b>[impressum type=\"datenschutz\"]</"
+"b><br><br>"
+msgstr ""
+"To use the Impressum in a Post or a Site, you need to use a shortcode. The "
+"shortcode is: <br><br><b>[impressum_manager]</b><br><br>You can also use "
+"additional parameters. The type parameter allows you to use parts of the "
+"Impressum. To see what kind of parameters can be used, you can look at the "
+"preview of the impresses and see the shortcode itself."
+
+#: admin/class.impressum-manager-admin.php:184
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/class.impressum-manager-admin.php:186
+msgid ""
+"Im Impressum Manager ist es möglich, Teile von dem Datenschutz bzw. "
+"Impressum Inhalte ein- und auszublenden. Mit den Häckchen in der "
+"Einestellungsseite kannst du die jeweiligen Bereiche ein- und ausschalten."
+msgstr ""
+"In Impressum Manager it is possible, to show or hide parts of the privacy "
+"policy. With the checkboxes you can show or hide parts of that."
+
+#: admin/class.impressum-manager-admin.php:190
+msgid "Feedback"
+msgstr "Feedback"
+
+#: admin/class.impressum-manager-admin.php:192
+msgid ""
+"Schick deine Fragen und Feedback an: <a href=\"mailto:support@impressum-"
+"manager.com\">support@impressum-manager.com</a>"
+msgstr ""
+"Send us your questions and your feedback to: <a href=\"mailto:"
+"support@impressum-manager.com\">support@impressum-manager.com</a>"
+
+#: admin/class.impressum-manager-admin.php:207
+msgid "For more information:"
+msgstr "For more information:"
+
+#: admin/class.impressum-manager-admin.php:208
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/class.impressum-manager-admin.php:209
+msgid "Support"
+msgstr "Support"
+
+#: admin/views/class.impressum-manager-form-factory.php:10
+msgid "Powered by Link"
+msgstr "Powered by link"
+
+#: admin/views/class.impressum-manager-form-factory.php:19
+msgid "Blende den Powered By Link von Impressum Manager aus"
+msgstr "Show the powered by link from Impressum Manager"
+
+#: admin/views/class.impressum-manager-form-factory.php:29
+msgid "eRecht24 Link"
+msgstr "eRecht24 link"
+
+#: admin/views/class.impressum-manager-form-factory.php:39
+msgid ""
+"Blende den Link von eRecht24 aus. Vorsicht: Hierbei kann es zu rechtlichen "
+"Schäden führen."
+msgstr ""
+"Show the link from eRecht24. Warning: If you hide the link, you could get "
+"legal issues."
+
+#: admin/views/class.impressum-manager-form-factory.php:52
+msgid "No Index"
+msgstr "No Index"
+
+#: admin/views/class.impressum-manager-form-factory.php:57
+msgid "Lass die Impressum Seite nicht von Suchmaschinen indexieren."
+msgstr "Don't let the Impressum Page be indexed by a search engine."
+
+#: admin/views/class.impressum-manager-form-factory.php:62
+msgid "E-Mail als Bild"
+msgstr "E-Mail as Image"
+
+#: admin/views/class.impressum-manager-form-factory.php:67
+msgid "Zeige E-Mail als Bild um Spam zu vermeiden"
+msgstr "Show E-Mail as Image to prevent Spam."
+
+#: admin/views/class.impressum-manager-form-factory.php:81
+msgid "Impressum Inhalt Einstellungen"
+msgstr "Impressum Content Settings"
+
+#: admin/views/class.impressum-manager-form-factory.php:85
+msgid "Haftungsausschluss (Disclaimer)"
+msgstr "Disclaimer"
+
+#: admin/views/class.impressum-manager-form-factory.php:91
+msgid "Füge einen Disclaimer in dein Impressum ein."
+msgstr "Insert a Disclaimer into your Impressum."
+
+#: admin/views/class.impressum-manager-form-factory.php:97
+msgid "Allgemine Datenschutzerklärung"
+msgstr "General Policy"
+
+#: admin/views/class.impressum-manager-form-factory.php:103
+msgid "Füge eine allgemeine Datenschutzerklärung in dein Impressum ein."
+msgstr "Insert a general Policy into your Impressum."
+
+#: admin/views/class.impressum-manager-form-factory.php:109
+msgid "Datenschutzerklärung für Facebook"
+msgstr "Policy for Facebook"
+
+#: admin/views/class.impressum-manager-form-factory.php:115
+msgid ""
+"Füge eine Datenschutzerklärung für die Nutzung von Facebook Elementen in "
+"dein Impressum ein."
+msgstr "Insert a Policy for the Usage of Facebook elements into your Impressum"
+
+#: admin/views/class.impressum-manager-form-factory.php:121
+msgid "Datenschutzerklärung für Google"
+msgstr "Policy for Google"
+
+#: admin/views/class.impressum-manager-form-factory.php:127
+msgid ""
+"Füge eine Datenschutzerklärung für die Nutzung von <b>Google Analytics</b> "
+"in dein Impressum ein."
+msgstr ""
+"Insert a Policy for the usage of <b>Google Analyitcs</b> into your Impressum."
+
+#: admin/views/class.impressum-manager-form-factory.php:133
+msgid ""
+"Füge eine Datenschutzerklärung für die Nutzung von <b>Google Adsense</b> in "
+"dein Impressum ein."
+msgstr ""
+"Insert a Policy for the usage of <b>Google Adsense</b> into your Impressum."
+
+#: admin/views/class.impressum-manager-form-factory.php:139
+msgid ""
+"Füge eine Datenschutzerklärung für die Nutzung von <b>Google +1</b> in dein "
+"Impressum ein."
+msgstr "Insert a Policy for the usage of <b>Google +1</b> into your Impressum."
+
+#: admin/views/class.impressum-manager-form-factory.php:145
+msgid "Datenschutzerklärung für Twitter"
+msgstr "Policy for Twitter"
+
+#: admin/views/class.impressum-manager-form-factory.php:151
+msgid ""
+"Füge eine Datenschutzerklärung für die Nutzung von Twitter Elementen in dein "
+"Impressum ein."
+msgstr "Insert a Policy for the usage of Twitter elements into your Impressum."
+
+#: admin/views/class.impressum-manager-form-factory.php:157
+msgid "Zusatzfeld"
+msgstr "Extra Field"
+
+#: admin/views/class.impressum-manager-form-factory.php:180
+#: admin/views/class.impressum-manager-form-factory.php:266
+msgid "Vollständiger Name"
+msgstr "Full Name"
+
+#: admin/views/class.impressum-manager-form-factory.php:184
+msgid "Firmenname inkl. Rechtsform"
+msgstr "Company name with form of organization"
+
+#: admin/views/class.impressum-manager-form-factory.php:191
+msgid "Art der Person"
+msgstr "Kind of person"
+
+#: admin/views/class.impressum-manager-form-factory.php:200
+msgid "Privatperson"
+msgstr "Private Person"
+
+#: admin/views/class.impressum-manager-form-factory.php:209
+msgid "Juristische Person (z.B. Firma, Verein, Organisation, Einrichtung)"
+msgstr "legal entity"
+
+#: admin/views/class.impressum-manager-form-factory.php:221
+msgid "Rechtsform"
+msgstr "Form of organization"
+
+#: admin/views/class.impressum-manager-form-factory.php:226
+#: includes/class.impressum-manager-shortcode-manager.php:128
+msgid "Einzelunternehmen"
+msgstr "individual enterprise"
+
+#: admin/views/class.impressum-manager-form-factory.php:227
+#: includes/class.impressum-manager-shortcode-manager.php:131
+msgid "Stille Gesellschaft"
+msgstr "silent partnership"
+
+#: admin/views/class.impressum-manager-form-factory.php:228
+#: includes/class.impressum-manager-shortcode-manager.php:134
+msgid "Offene Handelsgesellschaft (OHG)"
+msgstr "general partnership"
+
+#: admin/views/class.impressum-manager-form-factory.php:229
+#: includes/class.impressum-manager-shortcode-manager.php:137
+msgid "Kommanditgesellschaft (KG)"
+msgstr "limited partnership"
+
+#: admin/views/class.impressum-manager-form-factory.php:230
+#: includes/class.impressum-manager-shortcode-manager.php:140
+msgid "Gesellschaft bürgerlichen Rechts (GdR)"
+msgstr "BGB company"
+
+#: admin/views/class.impressum-manager-form-factory.php:231
+#: includes/class.impressum-manager-shortcode-manager.php:143
+msgid "Aktiengesellschaft (AG)"
+msgstr "ncorporated company"
+
+#: admin/views/class.impressum-manager-form-factory.php:232
+#: includes/class.impressum-manager-shortcode-manager.php:146
+msgid "Kommanditgesellschaft auf Aktien (KGaA)"
+msgstr "association limited by shares"
+
+#: admin/views/class.impressum-manager-form-factory.php:233
+#: includes/class.impressum-manager-shortcode-manager.php:149
+msgid "Gesellschaft mit beschränkter Haftung (GmbH)"
+msgstr "limited liability company"
+
+#: admin/views/class.impressum-manager-form-factory.php:234
+#: includes/class.impressum-manager-shortcode-manager.php:152
+msgid "Genossenschaft (eG)"
+msgstr "cooperative"
+
+#: admin/views/class.impressum-manager-form-factory.php:259
+msgid "Angaben zur Organisation"
+msgstr "Data to organization"
+
+#: admin/views/class.impressum-manager-form-factory.php:271
+msgid "Straße & Hausnummer"
+msgstr "Street and Streetnumber"
+
+#: admin/views/class.impressum-manager-form-factory.php:275
+msgid "Adresszusatz"
+msgstr "Extra address line"
+
+#: admin/views/class.impressum-manager-form-factory.php:280
+msgid "Ort"
+msgstr "Place"
+
+#: admin/views/class.impressum-manager-form-factory.php:285
+msgid "PLZ"
+msgstr "ZIP"
+
+#: admin/views/class.impressum-manager-form-factory.php:290
+msgid "Land"
+msgstr "Country"
+
+#: admin/views/class.impressum-manager-form-factory.php:324
+msgid "Berufshaftpflichtversicherung"
+msgstr "professional indemnity"
+
+#: admin/views/class.impressum-manager-form-factory.php:330
+msgid "Name und Anschrift"
+msgstr "Name and address"
+
+#: admin/views/class.impressum-manager-form-factory.php:336
+msgid "Geltungsraum"
+msgstr "validity period"
+
+#: admin/views/class.impressum-manager-form-factory.php:346
+msgid "Telefonnummer (inkl. Vorwahl)"
+msgstr "Phonenumber"
+
+#: admin/views/class.impressum-manager-form-factory.php:361
+msgid "Faxnummer (optional)"
+msgstr "Telefax number"
+
+#: admin/views/class.impressum-manager-form-factory.php:375
+msgid "E-Mail Adresse"
+msgstr "E-Mail address"
+
+#: admin/views/class.impressum-manager-form-factory.php:391
+msgid "Vertretungsberechtigte Persone(n)"
+msgstr "Authorized person"
+
+#: admin/views/class.impressum-manager-form-factory.php:396
+msgid "Namen und Vornamen"
+msgstr "Name and Surname"
+
+#: admin/views/class.impressum-manager-form-factory.php:408
+msgid "Umsatzsteuer ID"
+msgstr "VAT ID"
+
+#: admin/views/class.impressum-manager-form-factory.php:443
+msgid "Register"
+msgstr "register"
+
+#: admin/views/class.impressum-manager-form-factory.php:448
+#: includes/class.impressum-manager-shortcode-manager.php:107
+#: includes/impressum/class.impressum-manager-impressum-factory.php:225
+#: includes/impressum/class.impressum-manager-impressum-factory.php:240
+msgid "Kein Register"
+msgstr "No Register"
+
+#: admin/views/class.impressum-manager-form-factory.php:449
+#: includes/class.impressum-manager-shortcode-manager.php:110
+#: includes/impressum/class.impressum-manager-impressum-factory.php:228
+msgid "Genossenschaftsregister"
+msgstr "Cooperatives register"
+
+#: admin/views/class.impressum-manager-form-factory.php:450
+#: includes/class.impressum-manager-shortcode-manager.php:113
+#: includes/impressum/class.impressum-manager-impressum-factory.php:231
+msgid "Handelsregister"
+msgstr "commercial register"
+
+#: admin/views/class.impressum-manager-form-factory.php:451
+#: includes/class.impressum-manager-shortcode-manager.php:116
+#: includes/impressum/class.impressum-manager-impressum-factory.php:234
+msgid "Partnerschaftsregister"
+msgstr "partnership register"
+
+#: admin/views/class.impressum-manager-form-factory.php:452
+#: includes/class.impressum-manager-shortcode-manager.php:119
+#: includes/impressum/class.impressum-manager-impressum-factory.php:237
+msgid "Vereinsregister"
+msgstr "register of Associations"
+
+#: admin/views/class.impressum-manager-form-factory.php:476
+msgid "Registergericht"
+msgstr "register court"
+
+#: admin/views/class.impressum-manager-form-factory.php:484
+msgid "Registernummer"
+msgstr "register number"
+
+#: admin/views/class.impressum-manager-form-factory.php:499
+msgid "Aufsichtsbehörde "
+msgstr "authority"
+
+#: admin/views/class.impressum-manager-form-factory.php:537
+msgid "Reglementierter Beruf"
+msgstr "regulated profession"
+
+#: admin/views/class.impressum-manager-form-factory.php:546
+msgid "Gesetzliche Berufsbezeichnung"
+msgstr "legal profession"
+
+#: admin/views/class.impressum-manager-form-factory.php:551
+msgid "Staat, in dem die Berufsbezeichnung verliehen wurde"
+msgstr "State in which the qualification was awarded"
+
+#: admin/views/class.impressum-manager-form-factory.php:557
+msgid "Berfusrechtliche Regelungen (Bezeichnung)"
+msgstr "Professional Regulations (Title)"
+
+#: admin/views/class.impressum-manager-form-factory.php:562
+msgid "Kammer, der Sie angehören"
+msgstr "Chamber to which you belong"
+
+#: admin/views/class.impressum-manager-form-factory.php:567
+msgid "URL zu gesetzl. Regelungen"
+msgstr "URL to statutory regulations"
+
+#: admin/views/class.impressum-manager-form-factory.php:579
+msgid "Bildquellen"
+msgstr "Image sources"
+
+#: admin/views/class.impressum-manager-form-factory.php:583
+msgid "z.B. Max Mustermann, http://www.fotolia.com"
+msgstr "e.g. Max Mustermann, http://www.fotolia.com"
+
+#: admin/views/class.impressum-manager-form-factory.php:620
+msgid "journalistisch-redaktionelle Inhalte"
+msgstr "journalistic and editorial content"
+
+#: admin/views/class.impressum-manager-form-factory.php:625
+msgid ""
+"Vor-, Nachname inkl. Anschrift angeben. Bei mehreren Verantwortlichen die\n"
+"                                        Verantwortungen entsprechend mit "
+"angeben."
+msgstr "Specify name, surname incl. Address."
+
+#: admin/views/impressum-manager-config.php:6
+msgid "Konfiguriere dein Impressum."
+msgstr "Configure your Impressum"
+
+#: admin/views/impressum-manager-config.php:8
+msgid ""
+"Hier hast du die Möglichkeit mit einem Klick zu entscheiden, ob du dein "
+"importiertes Impressum nutzen möchtest, oder das generierte Impressum von "
+"Impressum Manager."
+msgstr ""
+"You have got the option to use either the imported Impressum or the "
+"generated Impressum by Impressum Manager, just with one click."
+
+#: admin/views/impressum-manager-config.php:15
+msgid "Importiertes Impressum nutzen"
+msgstr "Use the imported Impressum"
+
+#: admin/views/impressum-manager-config.php:21
+msgid "Aktiviere das importierte Impressum anstatt das generierte Impressum"
+msgstr "Activate the imported Impressum instead of the generated Impressum"
+
+#: admin/views/impressum-manager-config.php:33
+msgid "Zurück zur Vorschau"
+msgstr "Back to the Preview"
+
+#: admin/views/impressum-manager-config.php:38
+msgid "General"
+msgstr "General"
+
+#: admin/views/impressum-manager-config.php:40
+msgid "Kontaktdaten"
+msgstr "Contact Data"
+
+#: admin/views/impressum-manager-config.php:42
+msgid "Impressum Fields"
+msgstr "Impressum Fields"
+
+#: admin/views/impressum-manager-config.php:44
+msgid "Import"
+msgstr "Import"
+
+#: admin/views/impressum-manager-main.php:13
+#: admin/views/impressum-manager-start.php:22
+#: admin/views/tutorial/impressum-manager-tutorial-page1.php:2
+#: admin/views/tutorial/impressum-manager-tutorial-page2.php:2
+#: admin/views/tutorial/impressum-manager-tutorial-page3.php:2
+#: admin/views/tutorial/impressum-manager-tutorial-page4.php:2
+msgid "Impressum Manager"
+msgstr "Impressum Manager"
+
+#: admin/views/impressum-manager-main.php:22
+msgid "Dein Impressum ist leer!"
+msgstr "Your Impressum is empty"
+
+#: admin/views/impressum-manager-main.php:26
+msgid "Wähle eine der Optionen aus, um dein Impressum zu erstellen."
+msgstr "Choose one of these option to create an Impressum."
+
+#: admin/views/impressum-manager-main.php:37
+msgid "Impressum generieren"
+msgstr "Generate Impressum"
+
+#: admin/views/impressum-manager-main.php:40
+msgid "oder"
+msgstr "or"
+
+#: admin/views/impressum-manager-main.php:47
+msgid "Impressum importieren"
+msgstr "Import Impressum"
+
+#: admin/views/impressum-manager-main.php:54
+#, fuzzy
+msgid "Alternativ kannst du auch direkt zu den"
+msgstr "Alternatively you can also"
+
+#: admin/views/impressum-manager-main.php:59
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: admin/views/impressum-manager-main.php:85
+msgid "Konfigurieren"
+msgstr "Configure"
+
+#: admin/views/impressum-manager-main.php:88
+msgid "Wähle einen shortcode aus und schau dir die Vorschau an! "
+msgstr "Choose one of the shortcodes to see its preview!"
+
+#: admin/views/impressum-manager-main.php:92
+msgid "Shortcode: "
+msgstr "Shortcode:"
+
+#: admin/views/impressum-manager-start.php:26
+msgid ""
+"Willkommen bei Impressum-Manager. Dieses Plugin hilft dir deine Webseite(n) "
+"rechtsicher zu machen ..."
+msgstr ""
+"Welcome to Impressum Manager. This plugin helps you to make your website "
+"legally secure ..."
+
+#: admin/views/impressum-manager-start.php:29
+msgid "Bestätigung des Warnhinweises"
+msgstr "Confirmation of the Warning"
+
+#: admin/views/impressum-manager-start.php:31
+msgid ""
+"Ich weiß, dass ich die Nutzung der Impressum, Datenschutz und "
+"Haftungsauschluss Inhalte auf eigene Gefahr verwende. Mir ist bewusst, dass "
+"Impressum Manager keine Gewährleistung auf Schadenersatz anbietet, sofern "
+"rechtliche Schäden bzgl. meiner Webseite durch die Nutzung von dem Impressum "
+"Manager Wordpress Plugin entstanden sind. "
+msgstr ""
+"I know, that the usage of the Impressum, Policy, and Disclaimer contents are "
+"on my own risk. Impressum Manager is not responsible for damags which can be "
+"caused of using the Impressum contents. "
+
+#: admin/views/impressum-manager-start.php:37
+msgid "Ich bestätige hiermit, dass ich das Plugin auf eigene Gefahr nutze."
+msgstr "I agree, that I will use this plugin at my own risk."
+
+#: admin/views/impressum-manager-start.php:42
+msgid "In 4 Schritten zur rechtssicheren Webseite"
+msgstr "In 4 steps to a legally secure website"
+
+#: admin/views/impressum-manager-start.php:43
+msgid ""
+"Mit dem Impressum-Manager kannst du deine Webseite schnell rechtssicher "
+"machen, indem du ..."
+msgstr "With Impressum Manager you can make your website legally secure."
+
+#: admin/views/impressum-manager-start.php:51
+msgid "Impressum konfigurieren"
+msgstr "Configure Impressum"
+
+#: admin/views/impressum-manager-start.php:55
+msgid "Später Konfigurieren"
+msgstr "Configure later"
+
+#: admin/views/impressum-manager-start.php:56
+msgid ""
+"Das Impressum lässt sich auch jederzeit später konfigureren. Wenn du erst "
+"die Einstellungen sehen möchstest, klicke hier auf den Button."
+msgstr ""
+"The Impressum can be configured at any time. If you want to see the settings "
+"first, click on that button."
+
+#: admin/views/impressum-manager-start.php:63
+msgid "Zu den Einstellungen"
+msgstr "Back to settings"
+
+#: admin/views/tabs/impressum-manager-fields-tab.php:56
+msgid "Update Impressum Fields"
+msgstr "Update Impressum Fields"
+
+#: admin/views/tabs/impressum-manager-fields-tab.php:83
+msgid "Update"
+msgstr "Update"
+
+#: admin/views/tabs/impressum-manager-general-tab.php:20
+#: admin/views/tabs/impressum-manager-import-tab.php:48
+#: admin/views/tabs/impressum-manager-settings-tab.php:27
+msgid "Impressum aktualisieren"
+msgstr "Update Impressum"
+
+#: admin/views/tabs/impressum-manager-import-tab.php:11
+msgid "URL zum Impressum"
+msgstr "URL for Impressum"
+
+#: admin/views/tabs/impressum-manager-import-tab.php:21
+msgid "URL zum Datenschutz"
+msgstr "URL for policy"
+
+#: admin/views/tabs/impressum-manager-import-tab.php:30
+msgid "URL zu den AGB"
+msgstr "URL to the terms"
+
+#: admin/views/tabs/impressum-manager-import-tab.php:39
+msgid "URL zum Disclaimer"
+msgstr "URL to Disclaimer"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page1.php:9
+msgid "Schritt 1/4"
+msgstr "Step 1/4"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page1.php:16
+#: admin/views/tutorial/impressum-manager-tutorial-page2.php:14
+#: admin/views/tutorial/impressum-manager-tutorial-page3.php:14
+#: admin/views/tutorial/impressum-manager-tutorial-page4.php:14
+msgid "Abbrechen"
+msgstr "Cancel"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page1.php:43
+#: admin/views/tutorial/impressum-manager-tutorial-page2.php:45
+#: admin/views/tutorial/impressum-manager-tutorial-page3.php:40
+msgid "Nächster Schritt"
+msgstr "Next Step"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page2.php:7
+msgid "Schritt 2/4"
+msgstr "Step 2/4"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page2.php:40
+#: admin/views/tutorial/impressum-manager-tutorial-page3.php:35
+#: admin/views/tutorial/impressum-manager-tutorial-page4.php:35
+msgid "Schritt zurück"
+msgstr "Go back"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page3.php:7
+msgid "Schritt 3/4"
+msgstr "Step 3/4"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page4.php:7
+msgid "Schritt 4/4"
+msgstr "Step 4/4"
+
+#: admin/views/tutorial/impressum-manager-tutorial-page4.php:40
+msgid "Impressum speichern"
+msgstr "Save Impressum"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:37
+msgid "<h2>Angaben gemäß § 5 TMG:</h2>"
+msgstr ""
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:64
+msgid ""
+"<p>Quelle: <em><a rel=\"nofollow\" href=\"http://www.e-recht24.de/impressum-"
+"generator.html\">http://www.e-recht24.de</a></em></p>"
+msgstr ""
+"<p>Source: <em><a rel=\"nofollow\" href=\"http://www.e-recht24.de/impressum-"
+"generator.html\">http://www.e-recht24.de</a></em></p>"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:68
+msgid ""
+"<p>Plugin von <a href=\"http://www.impressum-manager.com\">Impressum "
+"Manager</a></p>"
+msgstr ""
+"<p>Plugin by <a href=\"http://www.impressum-manager.com\">Impressum Manager</"
+"a></p>"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:316
+msgid "Berufsbezeichnung"
+msgstr "Job Title"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:319
+msgid "Zuständige Kammer"
+msgstr "responsible chambger"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:322
+msgid "Verliehen durch"
+msgstr "awarded by"
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:325
+msgid "Es gelten folgende berufsrechtliche Regelungen"
+msgstr ""
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:331
+msgid "Regelungen einsehbar unter"
+msgstr ""
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:381
+msgid "<h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h2>"
+msgstr ""
+
+#: includes/impressum/class.impressum-manager-impressum-factory.php:431
+msgid "Quellenangaben für die verwendeten Bilder und Grafiken:"
+msgstr ""
+
+#~ msgid "Variablen"
+#~ msgstr "Variables"
+
+#~ msgid ""
+#~ "Es gibt die Möglichkeit die gespeicherten Werte in den Settings überall "
+#~ "auf der Webseite mit einem Shortcode aufzurufen. Der Shortcode lautet wie "
+#~ "folgt: <br><br><b>[impressum_manager var=\"VARIABLE\"]</b><br><br>Jedoch "
+#~ "muss das Wort Variable mit eines der folgenden Werten ersetzt werden: "
+#~ "<br><ul><li>company name</li><li>address</li><li>address axtra</"
+#~ "li><li>place</li><li>zip</li><li>county</li><li>fax</li><li>email</"
+#~ "li><li>phone</li><li>authorized person</li><li>vat</li><li>register "
+#~ "number</li><li>regulated profession</li><li>state</li><li>state rules</"
+#~ "li><li>responsible persons</li><li>responsible chamber</li><li>image "
+#~ "source</li><li>register</li><li>form</li></ul>"
+#~ msgstr ""
+#~ "There is a possibility to call the saved values by the shortcode "
+#~ "everywhere on the website. The shortcode is: "
+#~ "<br><br><b>[impressum_manager var=\"VARIABLE\"]</b><br><br>But you have "
+#~ "to replace the word variable with one of the following keys:"
+#~ "<br><ul><li>company name</li><li>address</li><li>address axtra</"
+#~ "li><li>place</li><li>zip</li><li>county</li><li>fax</li><li>email</"
+#~ "li><li>phone</li><li>authorized person</li><li>vat</li><li>register "
+#~ "number</li><li>regulated profession</li><li>state</li><li>state rules</"
+#~ "li><li>responsible persons</li><li>responsible chamber</li><li>image "
+#~ "source</li><li>register</li><li>form</li></ul>"
+
+#~ msgid "Wähle dein Land ..."
+#~ msgstr "Choose your land"
+
+#~ msgid "address"
+#~ msgstr "Address"
+
+#~ msgid "authorized person"
+#~ msgstr "Authorized Person"
+
+#~ msgid "contact"
+#~ msgstr "Contact"
+
+#, fuzzy
+#~ msgid "register"
+#~ msgstr "No Register"
+
+#~ msgid "vat"
+#~ msgstr "VAT"
+
+#~ msgid "Preview"
+#~ msgstr "Preview"
+
+#~ msgid "Show E-Mail as Image to prevent Spam."
+#~ msgstr "Show E-Mail as Image to prevent Spam."
+
+#~ msgid ""
+#~ "Es gibt die Möglichkeit die gespeicherten Werte in den Settings überall "
+#~ "auf der Webseite mit einem Shortcode aufzurufen. Der Shortcode lautet wie "
+#~ "folgt: <br><br><b>[impressum_manager var=\"VARIABLE\"]</b><br><br>Jedoch "
+#~ "muss das Wort Variable mit eines der folgenden Werten ersetzt werden: "
+#~ "1231242132131"
+#~ msgstr "\t\t"

@@ -1,0 +1,183 @@
+.ui-tabs .ui-tabs-nav li {
+    position: relative;
+    float: left;
+    border-bottom-width: 0 !important;
+    margin: 0 .2em -1px 0;
+    padding: 0;
+    margin-bottom: 0 !important
+}
+
+.ui-tabs-nav {
+    list-style: none
+}
+
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+    cursor: pointer
+}
+
+.ui-tabs-nav li {
+    margin-bottom: -1px !important
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    border: 1px solid #d3d3d3;
+    border-bottom-color: #f1f1f1;
+    background-color: #dfeffc;
+    color: #555;
+    outline: 0;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 10
+}
+
+.ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none
+}
+
+.manage-impressum, .manage-setting {
+    position: relative;
+    z-index: 5;
+    padding: 0;
+    display: block;
+    background: 0;
+    border: 0 solid #d3d3d3;
+    border-top-width: 1px
+}
+
+.form-table tbody th {
+    width: 300px
+}
+
+.form-table td {
+    padding: 3px 10px
+}
+
+.impressum-manager-start-wrap {
+    margin-top: 2em;
+    max-width: 700px
+}
+
+.box {
+    border-radius: 3px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 0
+}
+
+.box .button-primary {
+    margin-top: 0
+}
+
+.box .button.button-secondary {
+    margin: 0
+}
+
+.box.primary {
+    background: #fff;
+    padding: 30px;
+    margin-right: 10px
+}
+
+.box.secondary {
+    padding: 30px;
+    margin-right: 10px;
+    background: #ddd;
+    padding: 20px 30px
+}
+
+.right {
+    float: right
+}
+
+span.question {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #89a4cc;
+    line-height: 16px;
+    color: White;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+    position: relative
+}
+
+span.question:hover {
+    background-color: #3d6199
+}
+
+div.tooltip {
+    background-color: #3d6199;
+    color: White;
+    position: absolute;
+    left: 25px;
+    top: -25px;
+    z-index: 1000000;
+    width: 250px;
+    border-radius: 5px
+}
+
+div.tooltip:before {
+    border-color: transparent #3d6199 transparent transparent;
+    border-right: 6px solid #3d6199;
+    border-style: solid;
+    border-width: 6px 6px 6px 0;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+    left: -6px
+}
+
+div.tooltip p {
+    margin: 10px;
+    color: White
+}
+
+h2.logo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 30px;
+    background: #1a3140 no-repeat 20px center;
+    height: 23px;
+    margin-right: 10px;
+    font-family: "Times New Roman", "Bitstream Charter", Times, serif;
+    color: #fff;
+    font-size: 4em
+}
+
+@media screen and (min-width: 782px) {
+    #settings-options input[type=tel], #settings-options input[type=url], #settings-options input[type=email], #settings-options input[type=text], #settings-options select {
+        width: 338px
+    }
+
+    #settings-options textarea {
+        width: 338px;
+        height: 200px
+    }
+}
+
+.box.header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: normal
+}
+
+.box.content {
+    color: #777;
+    margin-bottom: 5px
+}
