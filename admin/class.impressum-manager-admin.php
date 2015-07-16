@@ -268,7 +268,7 @@ class Impressum_Manager_Admin {
 				if ( array_key_exists( "submit", $_REQUEST ) ) {
 					self::save_option( "impressum_manager_person", sanitize_text_field( @$_POST["impressum_manager_person"] ) );
 					self::save_option( "impressum_manager_form_of_organization", sanitize_text_field( @$_POST["impressum_manager_form_of_organization"] ) );
-					self::save_option( "impressum_manager_name_company", sanitize_text_field( @$_POST["sanitize_text_field(impressum_manager_name_company"] ) );
+					self::save_option( "impressum_manager_name_company", sanitize_text_field( @$_POST["impressum_manager_name_company"] ) );
 					self::save_option( "impressum_manager_address", sanitize_text_field( @$_POST["impressum_manager_address"] ) );
 					self::save_option( "impressum_manager_address_extra", sanitize_text_field( @$_POST["impressum_manager_address_extra"] ) );
 					self::save_option( "impressum_manager_place", sanitize_text_field( @$_POST["impressum_manager_place"] ) );

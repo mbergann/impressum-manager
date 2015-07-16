@@ -260,31 +260,34 @@ public static function get_source_from() {
 			<td>
 
 				<input type="text" name="impressum_manager_name_company"
-				       title="Company Name"
+				       title="Company Name" placeholder="Muster AG"
 				       value="<?= get_option( "impressum_manager_name_company" ) ?>">
 				<br>
 				<small id="full_name"><?= __( "Vollständiger Name", SLUG ) ?></small>
 				<br>
 				<input type="text" name="impressum_manager_address" title="Address"
+                       placeholder="Musterstraße 111"
 				       value="<?= get_option( "impressum_manager_address" ) ?>">
 				<br>
 				<small><?= __( "Straße & Hausnummer", SLUG ) ?></small>
 				<br>
 				<input type="text" name="impressum_manager_address_extra" title="Address Extra"
+                       placeholder="Gebäude 44"
 				       value="<?= get_option( "impressum_manager_address_extra" ) ?>"><br>
 				<small><?= __( "Adresszusatz", SLUG ) ?></small>
 				<br>
 				<input type="text" name="impressum_manager_place"
-				       title="Place"
+				       title="Place" placeholder="Musterstadt"
 				       value="<?= get_option( "impressum_manager_place" ) ?>"><br>
 				<small><?= __( "Ort", SLUG ) ?></small>
 				<br>
 				<input type="text" name="impressum_manager_zip"
-				       title="ZIP Code"
+				       title="ZIP Code" placeholder="90210"
 				       value="<?= get_option( "impressum_manager_zip" ) ?>"><br>
                 <small><?= __("PLZ", SLUG) ?></small>
                 <br>
                 <input type="text" name="impressum_manager_country" title="Country"
+                       placeholder="Deutschland"
                        value="<?= get_option("impressum_manager_country") ?>">
                 <br>
                 <small><?= __("Land", SLUG) ?></small>
@@ -325,12 +328,16 @@ public static function get_source_from() {
 			</th>
 			<td class="hide_professional_liability_insurance">
                 <textarea name="impressum_manager_name_and_adress"
+                          title="Beispiel Versicherung AG
+Musterweg 10
+90210 Musterstadt"
 	                ><?= get_option( "impressum_manager_name_and_adress" ) ?></textarea>
 				<br>
 				<small><?= __( "Name und Anschrift", SLUG ) ?>
 				</small>
 				<br>
 				<input type="text" name="impressum_manager_space_of_appliance" title="State"
+                       placeholder="Deutschland"
 				       value="<?= get_option( "impressum_manager_space_of_appliance" ) ?>">
 				<br>
 				<small><?= __( "Geltungsraum", SLUG ) ?></small>
@@ -347,7 +354,7 @@ public static function get_source_from() {
 			</th>
 			<td>
 				<input type="tel" name="impressum_manager_phone" title="Phone Number"
-
+                       placeholder="+49 (0) 123 44 55 66"
 				       value="<?= get_option( "impressum_manager_phone" ) ?>">
 			</td>
 		</tr>
@@ -362,6 +369,7 @@ public static function get_source_from() {
 			</th>
 			<td>
 				<input type="text" name="impressum_manager_fax" title="Fax Number"
+                       placeholder="+49 (0) 123 44 55 99"
 				       value="<?= get_option( "impressum_manager_fax" ) ?>">
 			</td>
 		</tr>
@@ -376,7 +384,7 @@ public static function get_source_from() {
 			</th>
 			<td>
 				<input type="email" name="impressum_manager_email" title="E-Mail Address"
-
+                       placeholder="mustermann@musterfirma.de"
 				       value="<?= get_option( "impressum_manager_email" ) ?>">
 			</td>
 		</tr>
@@ -392,6 +400,8 @@ public static function get_source_from() {
 			</th>
 			<td>
                 <textarea name="impressum_manager_authorized_person"
+                          title="Herr Dr. Harry Mustermann
+Frau Luise Beispiel"
 	                ><?= get_option( "impressum_manager_authorized_person" ) ?></textarea><br>
 				<small><?= __( "Namen und Vornamen", SLUG ) ?></small>
 			</td>
@@ -408,6 +418,7 @@ public static function get_source_from() {
 			<th scope="row"><b><?= __( "Umsatzsteuer ID", SLUG ) ?></b></th>
 			<td>
 				<input type="text" name="impressum_manager_vat" title="VAT"
+                       placeholder="DE 999 999 999"
 				       value="<?= get_option( "impressum_manager_vat" ) ?>">
 			</td>
 		</tr>
@@ -492,13 +503,13 @@ public static function get_source_from() {
 	}
 
 	public static function get_surveillance_authority() {
-		// Sofern Sie für die Ausübung Ihrer Tätigkeit einer behördlichen Zulassung bedürfen, so geben Sie zuständige Aufsichtsbehörde an!
 		?>
 
 		<tr valign="top">
 			<th scope="row"><b><?= __( "Aufsichtsbehörde ", SLUG ) ?></b></th>
 			<td>
 				<input type="text" name="impressum_manager_surveillance_authority" title="surveillance_authority"
+                       placeholder="Landratsamt Musterstadt"
 				       value="<?= get_option( "impressum_manager_surveillance_authority" ) ?>">
 			</td>
 		</tr>
@@ -579,6 +590,12 @@ public static function get_source_from() {
 			<th scope="row"><b><?= __( "Bildquellen", SLUG ) ?></b></th>
 			<td>
                 <textarea name="impressum_manager_image_source"
+                          title="http://www.bildagentur-sonnenschein.de
+Kuno Knipser
+
+http://www.onlineagentur-pusemuckel.de
+Benno Blitzer
+Peggy Picture"
 	                ><?= get_option( "impressum_manager_image_source" ) ?></textarea><br>
 				<small><?= __( "z.B. Max Mustermann, http://www.fotolia.com", SLUG ) ?></small>
 			</td>
@@ -621,6 +638,11 @@ public static function get_source_from() {
 			</th>
 			<td id="press_content_textarea">
                 <textarea name="impressum_manager_responsible_persons"
+                          title="Beate Beispielhaft
+&#10;
+Musterstraße 110
+Gebäude 33
+90210 Musterstadt"
 	                ><?= get_option( "impressum_manager_responsible_persons" ) ?></textarea><br>
 				<small><?= __( "Vor-, Nachname inkl. Anschrift angeben. Bei mehreren Verantwortlichen die
                                         Verantwortungen entsprechend mit angeben.", SLUG ) ?>

@@ -10,7 +10,7 @@ class Impressum_Manager_Textunit extends Impressum_Manager_AImpressum{
 
 	function __construct($shortcode, $name, $text){
 		$this->shortcode = $shortcode;
-		$this->name = "[impressum_manager type=&quot;" . $name . "&quot;]";
+		$this->name = $name;
 		$this->text = $text;
 	}
 
