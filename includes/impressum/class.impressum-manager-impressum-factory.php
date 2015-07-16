@@ -16,43 +16,47 @@ class Impressum_Manager_Impressum_Factory {
 
 	public static function create_generated_impressum() {
 
-		$impressum = new Impressum_Manager_Impressum( '', '[impressum_manager]' );
+		$all = new Impressum_Manager_Impressum( '', '[impressum_manager]' );
+
+		$impressum = new Impressum_Manager_Impressum( 'impressum', '- [impressum_manager type="impressum"]' );
 
 		$impressum->add( new Impressum_Manager_Text( __( "<h2>Angaben gemäß § 5 TMG:</h2>", SLUG ) ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'address', "address", self::get_address() ) );
+		$impressum->add( new Impressum_Manager_Textunit( 'address',  '- - [impressum_manager type="address"]', self::get_address() ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'authorized_person', "authorized person", self::get_authorized_person() ) );
+		$impressum->add( new Impressum_Manager_Textunit( 'authorized_person',  '- - [impressum_manager type="authorized_person"]', self::get_authorized_person() ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'contact', "contact", self::get_contact() ) );
+		$impressum->add( new Impressum_Manager_Textunit( 'contact',  '- - [impressum_manager type="contact"]', self::get_contact() ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'register', "register", self::get_register() ) );
+		$impressum->add( new Impressum_Manager_Textunit( 'register',  '- - [impressum_manager type="register"]', self::get_register() ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'vat', "vat", self::get_vat() ) );
+		$impressum->add( new Impressum_Manager_Textunit( 'vat',  '- - [impressum_manager type="vat"]', self::get_vat() ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'regulatory_authority', "regulatory authority", self::get_regulatory_authority() ) );
+		$impressum->add( new Impressum_Manager_Textunit( 'regulatory_authority',  '- - [impressum_manager type="regulatory_authority"]', self::get_regulatory_authority() ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'professional_liability_insurance', "professional liability insurance", self::get_professional_liability_insurance() ) );
+		$impressum->add( new Impressum_Manager_Textunit( 'professional_liability_insurance',  '- - [impressum_manager type="professional_liability_insurance"]', self::get_professional_liability_insurance() ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'responsible_person', "responsible person", self::get_responsible_person() ) );
+		$impressum->add( new Impressum_Manager_Textunit( 'responsible_person',  '- - [impressum_manager type="responsible_person"]', self::get_responsible_person() ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'image_sources', "image sources", self::get_image_sources() ) );
+		$impressum->add( new Impressum_Manager_Textunit( 'image_sources',  '- - [impressum_manager type="image_sources"]', self::get_image_sources() ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'extra_field', "extra field", self::get_extra_field() ) );
+		$impressum->add( new Impressum_Manager_Textunit( 'extra_field',  '- - [impressum_manager type="extra_field"]', self::get_extra_field() ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'disclaimer', "disclaimer", self::get_disclaimer() ) );
 
-		$impressum->add( new Impressum_Manager_Textunit( 'privacy_policy', "privacy policy", self::get_privacy_policy() ) );
+		$privacy_policy_and_disclaimer = new Impressum_Manager_Impressum( 'privacy_policy_and_disclaimer', '- [impressum_manager type="privacy_policy_and_disclaimer"]' );
 
-		if ( get_option( "impressum_manager_source_from" ) == true ) {
-			$impressum->add( new Impressum_Manager_Text( __( "<p>Quelle: <em><a rel=\"nofollow\" href=\"http://www.e-recht24.de/impressum-generator.html\">http://www.e-recht24.de</a></em></p>", SLUG ) ) );
-		}
+		$privacy_policy_and_disclaimer->add( new Impressum_Manager_Textunit( 'disclaimer',  '- - [impressum_manager type="disclaimer"]', self::get_disclaimer() ) );
 
-		if ( get_option( "impressum_manager_powered_by" ) == true ) {
-			$impressum->add( new Impressum_Manager_Text( __( "<p>Plugin von <a href=\"http://www.impressum-manager.com\">Impressum Manager</a></p>", SLUG ) ) );
-		}
+		$privacy_policy_and_disclaimer->add( new Impressum_Manager_Textunit( 'privacy_policy',  '- - [impressum_manager type="privacy_policy"]', self::get_privacy_policy() ) );
 
-		return $impressum;
+
+
+
+		$all->add($impressum);
+
+		$all->add($privacy_policy_and_disclaimer);
+
+		return $all;
 
 	}
 
