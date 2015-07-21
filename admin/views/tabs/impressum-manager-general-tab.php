@@ -1,5 +1,5 @@
 <?php
-Impressum_Manager_Admin::save_option( "impressum_manager_notice", "dismissed" );
+Impressum_Manager_Database::getInstance()->save_option( "impressum_manager_notice", "dismissed" );
 ?>
 
 <form method="post" action="options.php">

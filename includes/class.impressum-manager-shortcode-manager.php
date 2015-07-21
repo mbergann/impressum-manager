@@ -240,7 +240,9 @@ class Impressum_Manager_Shortcode_Manager {
 				if ( $execute_wp_head ) {
 					// Yoast Seo
 					if ( class_exists( 'WPSEO_Frontend' ) ) {
+                        ob_start();
 						$wpseo = WPSEO_Frontend::get_instance();
+                        ob_end_clean();
 						remove_action( 'wpseo_head', array( $wpseo, 'robots' ) );
 					}
 

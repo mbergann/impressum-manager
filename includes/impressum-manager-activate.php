@@ -31,8 +31,9 @@ function impressum_manager_install_activate()
 }
 
 function impressum_manager_pre_set_fields(){
-	Impressum_Manager_Admin::save_option("impressum_manager_powered_by", true);
-	Impressum_Manager_Admin::save_option("impressum_manager_source_from", true);
+	Impressum_Manager_Database::getInstance()->save_option("impressum_manager_powered_by", true);
+	Impressum_Manager_Database::getInstance()->save_option("impressum_manager_source_from", true);
+	Impressum_Manager_Database::getInstance()->save_option( 'impressum_manager_confirmation', false );
 }
 
 function impressum_manager_insert_data()
