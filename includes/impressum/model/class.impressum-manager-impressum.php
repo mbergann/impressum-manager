@@ -33,7 +33,7 @@ class Impressum_Manager_Impressum extends Impressum_Manager_AImpressum {
 	function __construct( $shortcode, $name ) {
 		$this->units     = array();
 		$this->shortcode = $shortcode;
-		$this->name      = $name;
+		$this->name = $name;
 	}
 
 	function add( Impressum_Manager_AImpressum $unit ) {

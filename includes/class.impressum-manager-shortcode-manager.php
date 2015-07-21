@@ -2,8 +2,7 @@
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
-class Impressum_Manager_Shortcode_Manager
-{
+class Impressum_Manager_Shortcode_Manager {
 
 	static private $instance = null;
 
@@ -21,8 +20,8 @@ class Impressum_Manager_Shortcode_Manager
 	private function __clone() {
 	}
 
-	public static function init(){
-		add_shortcode("impressum_manager", array('Impressum_Manager_Shortcode_Manager', 'content_shortcode'));
+	public static function init() {
+		add_shortcode( "impressum_manager", array( 'Impressum_Manager_Shortcode_Manager', 'content_shortcode' ) );
 	}
 
 	/**
@@ -35,123 +34,137 @@ class Impressum_Manager_Shortcode_Manager
 	 * @since 1.0.0
 	 *
 	 * @param $atts
+	 *
 	 * @return mixed|string
 	 */
-	public static function content_shortcode($atts)
-	{
+	public static function content_shortcode( $atts ) {
 		$result = "";
 
 		$impressum = Impressum_Manager_Impressum_Manager::getInstance()->get_impressum();
 
-		if (!empty($atts)) {
-			if (isset($atts['type'])) {
-				$result = $impressum->get_component_by_atts($atts)->draw();
+		if ( ! empty( $atts ) ) {
+			if ( isset( $atts['type'] ) ) {
+				$result = $impressum->get_component_by_atts( $atts )->draw();
+				if ( get_option( "impressum_manager_powered_by" ) == true ) {
+					$result .= "<p>Plugin von <a href=\"http://www.impressum-manager.com\">Impressum Manager</a></p>";
+				}
+
+				if ( get_option( "impressum_manager_source_from" ) == true
+				     && ( $atts['type'] == 'disclaimer'
+				          || $atts['type'] == 'privacy_policy'
+				          || $atts['type'] == 'privacy_policy_and_disclaimer'
+				          || $atts['type'] == '' )
+				) {
+					$result .= "<p>Quelle: <em><a rel=\"nofollow\" href=\"http://www.e-recht24.de/impressum-generator.html\">http://www.e-recht24.de</a></em></p>";
+				}
+
+
 			} else {
-				switch (strtolower($atts["var"])) {
+				switch ( strtolower( $atts["var"] ) ) {
 					case "company name":
-						$result = get_option("impressum_manager_name_company");
+						$result = get_option( "impressum_manager_name_company" );
 						break;
 					case "address":
-						$result = get_option("impressum_manager_address");
+						$result = get_option( "impressum_manager_address" );
 						break;
 					case "address axtra":
-						$result = get_option("impressum_manager_address_extra");
+						$result = get_option( "impressum_manager_address_extra" );
 						break;
 					case "place":
-						$result = get_option("impressum_manager_place");
+						$result = get_option( "impressum_manager_place" );
 						break;
 					case "zip":
-						$result = get_option("impressum_manager_zip");
+						$result = get_option( "impressum_manager_zip" );
 						break;
 					case "county":
-						$result = get_option("impressum_manager_country");
+						$result = get_option( "impressum_manager_country" );
 						break;
 					case "fax":
-						$result = get_option("impressum_manager_fax");
+						$result = get_option( "impressum_manager_fax" );
 						break;
 					case "email":
-						$result = get_option("impressum_manager_email");
+						$result = get_option( "impressum_manager_email" );
 						break;
 					case "phone":
-						$result = get_option("impressum_manager_phone");
+						$result = get_option( "impressum_manager_phone" );
 						break;
 					case "authorized person":
-						$result = get_option("impressum_manager_authorized_person");
+						$result = get_option( "impressum_manager_authorized_person" );
 						break;
 					case "vat":
-						$result = get_option("impressum_manager_vat");
+						$result = get_option( "impressum_manager_vat" );
 						break;
 					case "register number":
-						$result = get_option("impressum_manager_registenr");
+						$result = get_option( "impressum_manager_registenr" );
 						break;
 					case "regulated profession":
-						$result = get_option("impressum_manager_regulated_profession");
+						$result = get_option( "impressum_manager_regulated_profession" );
 						break;
 					case "state":
-						$result = get_option("impressum_manager_state");
+						$result = get_option( "impressum_manager_state" );
 						break;
 					case "state rules":
-						$result = get_option("impressum_manager_state_rules");
+						$result = get_option( "impressum_manager_state_rules" );
 						break;
 					case "responsible persons":
-						$result = get_option("impressum_manager_responsible_persons");
+						$result = get_option( "impressum_manager_responsible_persons" );
 						break;
 					case "responsible chamber":
-						$result = get_option("impressum_manager_responsible_chamber");
+						$result = get_option( "impressum_manager_responsible_chamber" );
 						break;
 					case "image source":
-						$result = get_option("impressum_manager_image_source");
+						$result = get_option( "impressum_manager_image_source" );
 						break;
 					case "register": {
-						$nr = get_option("impressum_manager_register");
-						switch ($nr) {
+						$nr = get_option( "impressum_manager_register" );
+						switch ( $nr ) {
 							case 1:
-								$result = __("Kein Register");
+								$result = __( "Kein Register" );
 								break;
 							case 2:
-								$result = __("Genossenschaftsregister");
+								$result = __( "Genossenschaftsregister" );
 								break;
 							case 3:
-								$result = __("Handelsregister");
+								$result = __( "Handelsregister" );
 								break;
 							case 4:
-								$result = __("Partnerschaftsregister");
+								$result = __( "Partnerschaftsregister" );
 								break;
 							case 5:
-								$result = __("Vereinsregister");
+								$result = __( "Vereinsregister" );
 								break;
 						}
 					};
 						break;
 					case "form": {
-						$form = get_option("impressum_manager_form_of_organization");
-						switch ($form) {
+						$form = get_option( "impressum_manager_form_of_organization" );
+						switch ( $form ) {
 							case 1:
-								$result = __("Einzelunternehmen");
+								$result = __( "Einzelunternehmen" );
 								break;
 							case 2:
-								$result = __("Stille Gesellschaft");
+								$result = __( "Stille Gesellschaft" );
 								break;
 							case 3:
-								$result = __("Offene Handelsgesellschaft (OHG)");
+								$result = __( "Offene Handelsgesellschaft (OHG)" );
 								break;
 							case 4:
-								$result = __("Kommanditgesellschaft (KG)");
+								$result = __( "Kommanditgesellschaft (KG)" );
 								break;
 							case 5:
-								$result = __("Gesellschaft bürgerlichen Rechts (GdR)");
+								$result = __( "Gesellschaft bürgerlichen Rechts (GdR)" );
 								break;
 							case 6:
-								$result = __("Aktiengesellschaft (AG)");
+								$result = __( "Aktiengesellschaft (AG)" );
 								break;
 							case 7:
-								$result = __("Kommanditgesellschaft auf Aktien (KGaA)");
+								$result = __( "Kommanditgesellschaft auf Aktien (KGaA)" );
 								break;
 							case 8:
-								$result = __("Gesellschaft mit beschränkter Haftung (GmbH)");
+								$result = __( "Gesellschaft mit beschränkter Haftung (GmbH)" );
 								break;
 							case 9:
-								$result = __("Genossenschaft (eG)");
+								$result = __( "Genossenschaft (eG)" );
 								break;
 						}
 					};
@@ -159,7 +172,7 @@ class Impressum_Manager_Shortcode_Manager
 						break;
 				}
 			}
-		}else{
+		} else {
 			$result = $impressum->draw();
 		}
 
@@ -173,14 +186,14 @@ class Impressum_Manager_Shortcode_Manager
 	 * @since 1.0.0
 	 *
 	 * @param $posts
+	 *
 	 * @return mixed
 	 */
-	public static function metashortcode($posts)
-	{
-		$shortcode = 'impressum_manager';
+	public static function metashortcode( $posts ) {
+		$shortcode         = 'impressum_manager';
 		$callback_function = self::metashortcode_setmeta();
 
-		return self::metashortcode_shortcode_to_wphead($posts, $shortcode, $callback_function);
+		return self::metashortcode_shortcode_to_wphead( $posts, $shortcode, $callback_function );
 	}
 
 	/**
@@ -190,8 +203,7 @@ class Impressum_Manager_Shortcode_Manager
 	 *
 	 * @since 1.0.0
 	 */
-	public static function metashortcode_setmeta()
-	{
+	public static function metashortcode_setmeta() {
 		echo '<meta name="robots" content="noindex,nofollow">';
 	}
 
@@ -202,44 +214,46 @@ class Impressum_Manager_Shortcode_Manager
 	 * @param $posts
 	 * @param $shortcode
 	 * @param $callback_function
+	 *
 	 * @return mixed
 	 */
-	public static function metashortcode_shortcode_to_wphead($posts, $shortcode, $callback_function)
-	{
-		if (empty($posts)) {
+	public static function metashortcode_shortcode_to_wphead( $posts, $shortcode, $callback_function ) {
+		if ( empty( $posts ) ) {
 			return $posts;
 		}
 
-		$show_noindex = get_option("impressum_manager_noindex");
+		$show_noindex    = get_option( "impressum_manager_noindex" );
 		$execute_wp_head = false;
 
-		if ($show_noindex !== false && strlen($show_noindex) > 0) {
+		if ( $show_noindex !== false && strlen( $show_noindex ) > 0 ) {
 			$execute_wp_head = true;
 		}
 
 		$found = false;
-		foreach ($posts as $post) {
-			if (stripos($post->post_content, '[' . $shortcode) !== false) {
+		foreach ( $posts as $post ) {
+			if ( stripos( $post->post_content, '[' . $shortcode ) !== false ) {
 				// remove standard no index
-				if ($execute_wp_head) {
-					remove_action('wp_head', 'noindex', 1);
+				if ( $execute_wp_head ) {
+					remove_action( 'wp_head', 'noindex', 1 );
 				}
 				// remove others plugin noindex
-				if ($execute_wp_head) {
+				if ( $execute_wp_head ) {
 					// Yoast Seo
-					if (class_exists('WPSEO_Frontend')) {
+					if ( class_exists( 'WPSEO_Frontend' ) ) {
+                        ob_start();
 						$wpseo = WPSEO_Frontend::get_instance();
-						remove_action('wpseo_head', array($wpseo, 'robots'));
+                        ob_end_clean();
+						remove_action( 'wpseo_head', array( $wpseo, 'robots' ) );
 					}
 
 					// WP SEO by sergej müller
-					if (class_exists('wpSEO_Output')) {
-						remove_action('wpseo_the_robots', array('wpSEO_Output', 'the_robots'));
+					if ( class_exists( 'wpSEO_Output' ) ) {
+						remove_action( 'wpseo_the_robots', array( 'wpSEO_Output', 'the_robots' ) );
 					}
 
 					// Wordpress Meta Robots
-					if (class_exists('wp_meta_robots_plugin')) {
-						remove_action('wp_head', array('wp_meta_robots_plugin', 'add_meta_robots_tag'));
+					if ( class_exists( 'wp_meta_robots_plugin' ) ) {
+						remove_action( 'wp_head', array( 'wp_meta_robots_plugin', 'add_meta_robots_tag' ) );
 					}
 				}
 				//add_shortcode($shortcode, array('Impressum_Manager_Shortcode_Manager', 'content_shortcode'));
@@ -248,8 +262,8 @@ class Impressum_Manager_Shortcode_Manager
 			}
 		}
 
-		if ($found && $execute_wp_head) {
-			add_action('wp_head', $callback_function);
+		if ( $found && $execute_wp_head ) {
+			add_action( 'wp_head', $callback_function );
 		}
 
 		return $posts;

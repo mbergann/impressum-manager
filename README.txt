@@ -1,29 +1,49 @@
 === Plugin Name ===
-Contributors: mapodev, Christian Jäger
+Contributors: mapodev, wp_jaeger
 Donate link: http://www.impressum-manager.com
 Tags: impressum, legal policy, terms
 Requires at least: 3.3.0
 Tested up to: 4.2.2
-Stable tag: 4.3
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Impressum Generator
+Impressum Manager manages all kind of aspects for a legal policy, terms and Impressum.
 
 == Description ==
 
-The Impressum Manager allows the user to generate the Impressum ( Legal Imprint )
-automatically and to manage it later on with only a few clicks.
-At the moment the imprint is available only in German. Others can follow.
+As a website operator one is obligated to have a legal notice. This shall help the visitors to quickly and easily find out key information about you as the operator.
+Competitors and some crafty profiteers see this as a lucrative source of capital and won’t hesitate to send expensive warning letters.
 
-The Impressum contains a privacy policy, disclaimer, contact fields and some more stuff.
-The Impressum Manager collects every name of the creator of an image by inserting the name
-in the name credit field in the image interface. Then the Manager sums up the names in the
-image sources so it is not necessary to write down every name of each image.
-The manager will do this automatically.
+According to that a legal notice is a must-have!
+However, it can be an enormous expense to create a legal notice. The legal notice manager can find a remedy. With only a few clicks one can configure a legal notice including data protection regulations and exclusion of liability by using eRecht24. Many useful features of the legal notice manager will simplify the maintenance of your legal notice and help to have your website legally watertight.
 
-Another option is to have the email represented by an image. This will reduce the
-spam mails by parsing the website through a bot.
+After the activation of the integrated spam protective mechanism it will convert e-mails to image files to prevent crawlers from adding your e-mail spam lists. Additionally you will have the possibility to integrate a No Index into your website.
+
+Furthermore the legal notice manager collects all credentials for the added images of your Wordpress instance and stores them inside the legal notice.
+The legal notice manager relieves you of a great deal of work. Take the easy way out and install the legal notice manager.
+
+Visit http://www.impressum-manager.com for more information.
+
+------------
+
+Als Betreiber einer Homepage bist du verpflichtet ein Impressum zu führen. 
+Deinen Besuchern soll so ermöglicht werden schnell und unkompliziert zentrale Informationen über dich als Website-Betreiber zu erfahren.
+
+Die Konkurrenz und einige gewitzte Geschäftemacher wittern hier eine lukrative Einnahmequelle und geizen nicht mit teuren Abmahnungen.
+
+Ein Impressum ist also absolute Pflicht!
+
+Die Erstellung eines Impressums kann allerdings auch einen enormen Aufwand bedeuten. Der Impressum Manager schafft an dieser Stelle Abhilfe. 
+Mit nur wenigen Klicks kannst du ein Impressum inkl. Datenschutz- und Haftungsausschussbestimmungen von eRecht24 konfigurieren.
+Viele tolle Features im Impressum Manager ermöglichen dir die Verwaltung deines Impressums und machen deine Seite rechtssicher.
+
+Der integrierte Spam Schutz Mechanismus wandelt nach seiner Aktivierung E-Mail in Bilddateien und verhindert so, dass Crawler deine E-Mail Spam-Listen hinzufügen.
+Du verfügst ebenfalls über die Möglichkeit einen No Index in deine Seite zu integrieren. Zusätzlich sammelt der Impressum Manager von allen Bildern deiner Wordpress Instanz die hinzugefügten Bild Credentials und fasst sie im Impressum zusammen.
+
+Der Impressum Manager nimmt dir also viel Arbeit ab. Mach es dir bequem und installiere den Impressum Manager.
+
+Besuche http://www.impressum-manager.de für mehr Informationen.
 
 == Frequently Asked Questions ==
 
@@ -32,6 +52,16 @@ No questions asked yet.
 Questions can be asked anytime at support@impressum-manager.com
 
 == Changelog ==
+
+= 1.0.2 =
+- some bug fixes
+- some new translations
+- new structure of design
+
+= 1.0.1 =
+- placeholders added
+- some minor bugfixes
+- new shortcode display
 
 = 1.0.0 =
 - RELEASE

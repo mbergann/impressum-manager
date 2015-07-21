@@ -36,7 +36,7 @@ class Impressum_Manager_Admin {
 	 * @since    1.0.0
 	 * @access   private
 	 */
-	public function set_locale() {
+	public static function set_locale() {
 		load_plugin_textdomain( SLUG, false, dirname( plugin_basename( __FILE__ ) ) . '/../languages' );
 	}
 
@@ -227,19 +227,8 @@ class Impressum_Manager_Admin {
 	 * @since 1.0.0
 	 */
 	public static function show() {
-		$skip_start = false;
 
-		if ( isset( $_GET['skip_start'] ) && $_GET['skip_start'] == 'true' || isset( $_GET['tut_finished'] ) && $_GET['tut_finished'] == 'true' ) {
-			self::save_option( 'impressum_manager_skip_start', true );
-		}
-
-		if ( get_option( 'impressum_manager_skip_start' ) == true || isset( $_GET['skip_start_temp'] ) && $_GET['skip_start_temp'] == 'true' ) {
-			$skip_start = true;
-		}
-
-		if ( $skip_start == false ) {
-			include( plugin_dir_path( __FILE__ ) . "views/impressum-manager-start.php" );
-		} elseif ( isset( $_GET['view'] ) && $_GET['view'] == 'tutorial' ) {
+		if ( isset( $_GET['view'] ) && $_GET['view'] == 'tutorial' ) {
 			self::display_tutorial_page();
 		} elseif ( isset( $_GET['view'] ) && $_GET['view'] == 'config' ) {
 			include( plugin_dir_path( __FILE__ ) . "views/impressum-manager-config.php" );
@@ -266,18 +255,20 @@ class Impressum_Manager_Admin {
 			case 2:
 
 				if ( array_key_exists( "submit", $_REQUEST ) ) {
-					self::save_option( "impressum_manager_person", sanitize_text_field( @$_POST["impressum_manager_person"] ) );
-					self::save_option( "impressum_manager_form_of_organization", sanitize_text_field( @$_POST["impressum_manager_form_of_organization"] ) );
-					self::save_option( "impressum_manager_name_company", sanitize_text_field( @$_POST["sanitize_text_field(impressum_manager_name_company"] ) );
-					self::save_option( "impressum_manager_address", sanitize_text_field( @$_POST["impressum_manager_address"] ) );
-					self::save_option( "impressum_manager_address_extra", sanitize_text_field( @$_POST["impressum_manager_address_extra"] ) );
-					self::save_option( "impressum_manager_place", sanitize_text_field( @$_POST["impressum_manager_place"] ) );
-					self::save_option( "impressum_manager_zip", sanitize_text_field( @$_POST["impressum_manager_zip"] ) );
-					self::save_option( "impressum_manager_country", sanitize_text_field( @$_POST["impressum_manager_country"] ) );
-					self::save_option( "impressum_manager_fax", sanitize_text_field( @$_POST["impressum_manager_fax"] ) );
-					self::save_option( "impressum_manager_email", sanitize_text_field( @$_POST["impressum_manager_email"] ) );
-					self::save_option( "impressum_manager_phone", sanitize_text_field( @$_POST["impressum_manager_phone"] ) );
-					self::save_option( "impressum_manager_authorized_person", sanitize_text_field( @$_POST["impressum_manager_authorized_person"] ) );
+					$db = Impressum_Manager_Database::getInstance();
+
+					$db->save_option( "impressum_manager_person", sanitize_text_field( @$_POST["impressum_manager_person"] ) );
+					$db->save_option( "impressum_manager_form_of_organization", sanitize_text_field( @$_POST["impressum_manager_form_of_organization"] ) );
+					$db->save_option( "impressum_manager_name_company", sanitize_text_field( @$_POST["impressum_manager_name_company"] ) );
+					$db->save_option( "impressum_manager_address", sanitize_text_field( @$_POST["impressum_manager_address"] ) );
+					$db->save_option( "impressum_manager_address_extra", sanitize_text_field( @$_POST["impressum_manager_address_extra"] ) );
+					$db->save_option( "impressum_manager_place", sanitize_text_field( @$_POST["impressum_manager_place"] ) );
+					$db->save_option( "impressum_manager_zip", sanitize_text_field( @$_POST["impressum_manager_zip"] ) );
+					$db->save_option( "impressum_manager_country", sanitize_text_field( @$_POST["impressum_manager_country"] ) );
+					$db->save_option( "impressum_manager_fax", sanitize_text_field( @$_POST["impressum_manager_fax"] ) );
+					$db->save_option( "impressum_manager_email", sanitize_text_field( @$_POST["impressum_manager_email"] ) );
+					$db->save_option( "impressum_manager_phone", sanitize_text_field( @$_POST["impressum_manager_phone"] ) );
+					$db->save_option( "impressum_manager_authorized_person", sanitize_text_field( @$_POST["impressum_manager_authorized_person"] ) );
 				}
 
 				include( plugin_dir_path( __FILE__ ) . "views/tutorial/impressum-manager-tutorial-page2.php" );
@@ -286,31 +277,33 @@ class Impressum_Manager_Admin {
 			case 3:
 
 				if ( array_key_exists( "submit", $_REQUEST ) ) {
-					self::save_option( "impressum_manager_vat", sanitize_text_field( @$_POST["impressum_manager_vat"] ) );
+					$db = Impressum_Manager_Database::getInstance();
 
-					self::save_option( "impressum_manager_register", sanitize_text_field( @$_POST["impressum_manager_register"] ) );
-					self::save_option( "impressum_manager_registenr", sanitize_text_field( @$_POST["impressum_manager_registenr"] ) );
-					self::save_option( "impressum_manager_register_court", sanitize_text_field( @$_POST["impressum_manager_register_court"] ) );
+					$db->save_option( "impressum_manager_vat", sanitize_text_field( @$_POST["impressum_manager_vat"] ) );
 
-					self::save_option( "impressum_manager_regulated_profession_checked", sanitize_text_field( @$_POST['impressum_manager_regulated_profession_checked'] ) );
-					self::save_option( "impressum_manager_regulated_profession", sanitize_text_field( @$_POST["impressum_manager_regulated_profession"] ) );
-					self::save_option( "impressum_manager_state", sanitize_text_field( @$_POST["impressum_manager_state"] ) );
-					self::save_option( "impressum_manager_state_rules", sanitize_text_field( @$_POST["impressum_manager_state_rules"] ) );
-					self::save_option( "impressum_manager_chamber", sanitize_text_field( @$_POST["impressum_manager_chamber"] ) );
-					self::save_option( "impressum_manager_rules_link", sanitize_text_field( @$_POST["impressum_manager_rules_link"] ) );
+					$db->save_option( "impressum_manager_register", sanitize_text_field( @$_POST["impressum_manager_register"] ) );
+					$db->save_option( "impressum_manager_registenr", sanitize_text_field( @$_POST["impressum_manager_registenr"] ) );
+					$db->save_option( "impressum_manager_register_court", sanitize_text_field( @$_POST["impressum_manager_register_court"] ) );
 
-					self::save_option( "impressum_manager_responsible_persons", sanitize_text_field( @$_POST["impressum_manager_responsible_persons"] ) );
+					$db->save_option( "impressum_manager_regulated_profession_checked", sanitize_text_field( @$_POST['impressum_manager_regulated_profession_checked'] ) );
+					$db->save_option( "impressum_manager_regulated_profession", sanitize_text_field( @$_POST["impressum_manager_regulated_profession"] ) );
+					$db->save_option( "impressum_manager_state", sanitize_text_field( @$_POST["impressum_manager_state"] ) );
+					$db->save_option( "impressum_manager_state_rules", sanitize_text_field( @$_POST["impressum_manager_state_rules"] ) );
+					$db->save_option( "impressum_manager_chamber", sanitize_text_field( @$_POST["impressum_manager_chamber"] ) );
+					$db->save_option( "impressum_manager_rules_link", sanitize_text_field( @$_POST["impressum_manager_rules_link"] ) );
 
-					self::save_option( "impressum_manager_image_source", sanitize_text_field( @$_POST["impressum_manager_image_source"] ) );
+					$db->save_option( "impressum_manager_responsible_persons", sanitize_text_field( @$_POST["impressum_manager_responsible_persons"] ) );
+
+					$db->save_option( "impressum_manager_image_source", sanitize_text_field( @$_POST["impressum_manager_image_source"] ) );
 
 
-					self::save_option( "impressum_manager_press_content", sanitize_text_field( @$_POST["impressum_manager_press_content"] ) );
+					$db->save_option( "impressum_manager_press_content", sanitize_text_field( @$_POST["impressum_manager_press_content"] ) );
 
-					self::save_option( "impressum_manager_professional_liability_insurance_checked", sanitize_text_field( @$_POST["impressum_manager_professional_liability_insurance_checked"] ) );
-					self::save_option( "impressum_manager_name_and_adress", nl2br( sanitize_text_field( @$_POST["impressum_manager_name_and_adress"] ) ) );
-					self::save_option( "impressum_manager_space_of_appliance", sanitize_text_field( @$_POST['impressum_manager_space_of_appliance'] ) );
+					$db->save_option( "impressum_manager_professional_liability_insurance_checked", sanitize_text_field( @$_POST["impressum_manager_professional_liability_insurance_checked"] ) );
+					$db->save_option( "impressum_manager_name_and_adress", nl2br( sanitize_text_field( @$_POST["impressum_manager_name_and_adress"] ) ) );
+					$db->save_option( "impressum_manager_space_of_appliance", sanitize_text_field( @$_POST['impressum_manager_space_of_appliance'] ) );
 
-					self::save_option( "impressum_manager_surveillance_authority", sanitize_text_field( @$_POST['impressum_manager_surveillance_authority'] ) );
+					$db->save_option( "impressum_manager_surveillance_authority", sanitize_text_field( @$_POST['impressum_manager_surveillance_authority'] ) );
 
 
 				}
@@ -320,14 +313,17 @@ class Impressum_Manager_Admin {
 
 			case 4:
 				if ( array_key_exists( "submit", $_REQUEST ) ) {
-					self::save_option( "impressum_manager_disclaimer", sanitize_text_field( @$_POST["impressum_manager_disclaimer"] ) );
-					self::save_option( "impressum_manager_general_privacy_policy", sanitize_text_field( @$_POST["impressum_manager_general_privacy_policy"] ) );
-					self::save_option( "impressum_manager_policy_facebook", sanitize_text_field( @$_POST["impressum_manager_policy_facebook"] ) );
-					self::save_option( "impressum_manager_policy_google_analytics", sanitize_text_field( @$_POST["impressum_manager_policy_google_analytics"] ) );
-					self::save_option( "impressum_manager_policy_google_adsense", sanitize_text_field( @$_POST["impressum_manager_policy_google_adsense"] ) );
-					self::save_option( "impressum_manager_policy_google_plus", sanitize_text_field( @$_POST["impressum_manager_policy_google_plus"] ) );
-					self::save_option( "impressum_manager_policy_twitter", sanitize_text_field( @$_POST["impressum_manager_policy_twitter"] ) );
-					self::save_option( "impressum_manager_extra_field", sanitize_text_field( @$_POST["impressum_manager_extra_field"] ) );
+					$db = Impressum_Manager_Database::getInstance();
+
+					$db->save_option( "impressum_manager_disclaimer", sanitize_text_field( @$_POST["impressum_manager_disclaimer"] ) );
+					$db->save_option( "impressum_manager_general_privacy_policy", sanitize_text_field( @$_POST["impressum_manager_general_privacy_policy"] ) );
+					$db->save_option( "impressum_manager_policy_facebook", sanitize_text_field( @$_POST["impressum_manager_policy_facebook"] ) );
+					$db->save_option( "impressum_manager_policy_google_analytics", sanitize_text_field( @$_POST["impressum_manager_policy_google_analytics"] ) );
+					$db->save_option( "impressum_manager_policy_google_adsense", sanitize_text_field( @$_POST["impressum_manager_policy_google_adsense"] ) );
+					$db->save_option( "impressum_manager_policy_google_plus", sanitize_text_field( @$_POST["impressum_manager_policy_google_plus"] ) );
+					$db->save_option( "impressum_manager_policy_twitter", sanitize_text_field( @$_POST["impressum_manager_policy_twitter"] ) );
+					$db->save_option( "impressum_manager_extra_field", sanitize_text_field( @$_POST["impressum_manager_extra_field"] ) );
+
 				}
 
 				include( plugin_dir_path( __FILE__ ) . "views/tutorial/impressum-manager-tutorial-page4.php" );
@@ -347,6 +343,9 @@ class Impressum_Manager_Admin {
 	 * @since 1.0.0
 	 */
 	public function register_settings() {
+
+		// general settings of the plugin
+		register_setting("impressum-manager-general-settings","impressum_manager_confirmation");
 
 		// general options
 		register_setting( "impressum-manager-general-tab", "impressum_manager_noindex" );
@@ -413,21 +412,5 @@ class Impressum_Manager_Admin {
     public function my_sanitize_method($input) {
         return sanitize_text_field($input);
     }
-
-	/**
-	 * Helper method for saving an option.
-	 *
-	 * @since 1.0.0
-	 *
-	 * @param $name
-	 * @param $val
-	 */
-	public static function save_option( $name, $val ) {
-		if ( get_option( $name ) !== false ) {
-			update_option( $name, $val );
-		} else {
-			add_option( $name, $val );
-		}
-	}
 
 }
