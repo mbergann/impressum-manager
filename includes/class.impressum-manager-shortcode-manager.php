@@ -204,7 +204,8 @@ class Impressum_Manager_Shortcode_Manager {
 	 * @since 1.0.0
 	 */
 	public static function metashortcode_setmeta() {
-		echo '<meta name="robots" content="noindex,nofollow">';
+        if(!is_admin())
+		    echo '<meta name="robots" content="noindex,nofollow">';
 	}
 
 	/**
@@ -240,7 +241,9 @@ class Impressum_Manager_Shortcode_Manager {
 				if ( $execute_wp_head ) {
 					// Yoast Seo
 					if ( class_exists( 'WPSEO_Frontend' ) ) {
+                        ob_start();
 						$wpseo = WPSEO_Frontend::get_instance();
+                        ob_end_clean();
 						remove_action( 'wpseo_head', array( $wpseo, 'robots' ) );
 					}
 
