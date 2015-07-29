@@ -204,7 +204,8 @@ class Impressum_Manager_Shortcode_Manager {
 	 * @since 1.0.0
 	 */
 	public static function metashortcode_setmeta() {
-		echo '<meta name="robots" content="noindex,nofollow">';
+        if(!is_admin())
+		    echo '<meta name="robots" content="noindex,nofollow">';
 	}
 
 	/**
