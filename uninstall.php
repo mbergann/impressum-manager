@@ -1,9 +1,9 @@
 <?php
 
 // If uninstall not called from WordPress, then exit.
-//if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
-//    exit;
-//}
+if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
+    exit;
+}
 
 delete_option("impressum_manager_person");
 delete_option("impressum_manager_form_of_organization");
@@ -53,6 +53,10 @@ delete_option("impressum_manager_source_from");
 delete_option("impressum_manager_powered_by");
 delete_option("impressum_manager_policy_google_adsense");
 delete_option("impressum_manager_skip_start");
+delete_option("impressum_manager_confirmation");
+
+
+unregister_setting("impressum-manager-general-settings","impressum_manager_confirmation");
 
 unregister_setting("impressum-manager-general-tab", "impressum_manager_disclaimer");
 unregister_setting("impressum-manager-general-tab", "impressum_manager_general_privacy_policy");

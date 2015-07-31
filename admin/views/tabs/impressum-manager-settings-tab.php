@@ -1,4 +1,3 @@
-<!--<form method="post" action="<?= Impressum_Manager_Admin::get_page_url() ?>&view=config#settings-tab">-->
 <form method="post" action="options.php">
 	<?php
 	settings_fields( 'impressum-manager-settings' );

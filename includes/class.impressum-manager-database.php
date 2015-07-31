@@ -41,4 +41,20 @@ class Impressum_Manager_Database {
 
 		return $result;
 	}
+
+	/**
+	 * Helper method for saving an option.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @param $name
+	 * @param $val
+	 */
+	public static function save_option( $name, $val ) {
+		if ( get_option( $name ) !== false ) {
+			update_option( $name, $val );
+		} else {
+			add_option( $name, $val );
+		}
+	}
 }

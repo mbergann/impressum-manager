@@ -40,7 +40,7 @@ class Impressum_Manager {
 	 */
 	public function __construct() {
 		$this->plugin_name = 'Impressum Manager';
-		$this->version     = '1.0.1';
+		$this->version     = '1.0.4';
 		$this->load_dependencies();
 		$this->define_hooks();
 	}

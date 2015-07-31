@@ -4,7 +4,7 @@ Donate link: http://www.impressum-manager.com
 Tags: impressum, legal policy, terms
 Requires at least: 3.3.0
 Tested up to: 4.2.2
-Stable tag: 1.0.1
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,7 +23,9 @@ After the activation of the integrated spam protective mechanism it will convert
 Furthermore the legal notice manager collects all credentials for the added images of your Wordpress instance and stores them inside the legal notice.
 The legal notice manager relieves you of a great deal of work. Take the easy way out and install the legal notice manager.
 
-__________
+Visit http://www.impressum-manager.com for more information.
+
+------------
 
 Als Betreiber einer Homepage bist du verpflichtet ein Impressum zu führen. 
 Deinen Besuchern soll so ermöglicht werden schnell und unkompliziert zentrale Informationen über dich als Website-Betreiber zu erfahren.
@@ -41,6 +43,8 @@ Du verfügst ebenfalls über die Möglichkeit einen No Index in deine Seite zu i
 
 Der Impressum Manager nimmt dir also viel Arbeit ab. Mach es dir bequem und installiere den Impressum Manager.
 
+Besuche http://www.impressum-manager.de für mehr Informationen.
+
 == Frequently Asked Questions ==
 
 No questions asked yet.
@@ -48,6 +52,17 @@ No questions asked yet.
 Questions can be asked anytime at support@impressum-manager.com
 
 == Changelog ==
+
+= 1.0.4 =
+- hotfix: bug caused calling noindex on every page, sorry.
+
+= 1.0.3 =
+- hotfix: bug caused grid view of media library not showing
+
+= 1.0.2 =
+- some bug fixes
+- some new translations
+- new structure of design
 
 = 1.0.1 =
 - placeholders added

@@ -411,7 +411,7 @@ class Impressum_Manager_Impressum_Factory {
 			$result .= $credit . "<br>";
 		}
 
-		if ( $image_source !== false ) {
+		if ( !empty($image_source)) {
 			$result .= nl2br( $image_source );
 		}
 
@@ -419,7 +419,9 @@ class Impressum_Manager_Impressum_Factory {
 			$result = "<h2>" . __( "Quellenangaben für die verwendeten Bilder und Grafiken:", SLUG ) . "</h2>" . $result;
 		}
 
-		$result = "<p>" . $result . "</p>";
+        if(!empty($result)) {
+            $result = "<p>" . $result . "</p>";
+        }
 
 		return $result;
 	}

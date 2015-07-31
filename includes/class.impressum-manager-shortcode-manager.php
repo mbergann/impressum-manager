@@ -191,7 +191,7 @@ class Impressum_Manager_Shortcode_Manager {
 	 */
 	public static function metashortcode( $posts ) {
 		$shortcode         = 'impressum_manager';
-		$callback_function = self::metashortcode_setmeta();
+		$callback_function = array('Impressum_Manager_Shortcode_Manager', 'metashortcode_setmeta');
 
 		return self::metashortcode_shortcode_to_wphead( $posts, $shortcode, $callback_function );
 	}
@@ -204,7 +204,8 @@ class Impressum_Manager_Shortcode_Manager {
 	 * @since 1.0.0
 	 */
 	public static function metashortcode_setmeta() {
-		echo '<meta name="robots" content="noindex,nofollow">';
+        if(!is_admin())
+		    echo '<meta name="robots" content="noindex,nofollow">';
 	}
 
 	/**
@@ -232,35 +233,37 @@ class Impressum_Manager_Shortcode_Manager {
 		$found = false;
 		foreach ( $posts as $post ) {
 			if ( stripos( $post->post_content, '[' . $shortcode ) !== false ) {
-				// remove standard no index
-				if ( $execute_wp_head ) {
-					remove_action( 'wp_head', 'noindex', 1 );
-				}
-				// remove others plugin noindex
-				if ( $execute_wp_head ) {
-					// Yoast Seo
-					if ( class_exists( 'WPSEO_Frontend' ) ) {
-						$wpseo = WPSEO_Frontend::get_instance();
-						remove_action( 'wpseo_head', array( $wpseo, 'robots' ) );
-					}
-
-					// WP SEO by sergej müller
-					if ( class_exists( 'wpSEO_Output' ) ) {
-						remove_action( 'wpseo_the_robots', array( 'wpSEO_Output', 'the_robots' ) );
-					}
-
-					// Wordpress Meta Robots
-					if ( class_exists( 'wp_meta_robots_plugin' ) ) {
-						remove_action( 'wp_head', array( 'wp_meta_robots_plugin', 'add_meta_robots_tag' ) );
-					}
-				}
-				//add_shortcode($shortcode, array('Impressum_Manager_Shortcode_Manager', 'content_shortcode'));
 				$found = true;
 				break;
 			}
 		}
 
 		if ( $found && $execute_wp_head ) {
+            // remove standard no index
+            if ( $execute_wp_head ) {
+                remove_action( 'wp_head', 'noindex', 1 );
+            }
+            // remove others plugin noindex
+            if ( $execute_wp_head ) {
+                // Yoast Seo
+                if ( class_exists( 'WPSEO_Frontend' ) ) {
+                    ob_start();
+                    $wpseo = WPSEO_Frontend::get_instance();
+                    ob_end_clean();
+                    remove_action( 'wpseo_head', array( $wpseo, 'robots' ) );
+                }
+
+                // WP SEO by sergej müller
+                if ( class_exists( 'wpSEO_Output' ) ) {
+                    remove_action( 'wpseo_the_robots', array( 'wpSEO_Output', 'the_robots' ) );
+                }
+
+                // Wordpress Meta Robots
+                if ( class_exists( 'wp_meta_robots_plugin' ) ) {
+                    remove_action( 'wp_head', array( 'wp_meta_robots_plugin', 'add_meta_robots_tag' ) );
+                }
+            }
+
 			add_action( 'wp_head', $callback_function );
 		}
 
