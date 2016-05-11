@@ -4,7 +4,7 @@ Donate link: http://www.impressum-manager.com
 Tags: impressum, legal policy, terms
 Requires at least: 3.3.0
 Tested up to: 4.2.2
-Stable tag: 1.0.4
+Stable tag: 4.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,33 @@ No questions asked yet.
 Questions can be asked anytime at support@impressum-manager.com
 
 == Changelog ==
+
+= 1.1.3 =
+- fix #6. Thanks to tgorontzy, which pointed out wrongly switched place and zip
+
+= 1.1.2 =
+- Fixed Copy to Clipboard
+- Newsletter Opt In added
+- Some Design aspects
+
+= 1.1.1 =
+- Added new "Rechtsform" called "e.V."
+- fixed breaks for textareas
+
+= 1.1.0 =
+- fix: editor for editing impressum fields like policy and disclaimer now working
+- cleaned up code
+- more advertisement
+- copy to clipboard function added
+
+= 1.0.7 =
+- hotfix: [impressum_manager] shortcode had no powered by links
+
+= 1.0.6 =
+- hotfix
+
+= 1.0.5 =
+- hotfix: bug caused not showing preview
 
 = 1.0.4 =
 - hotfix: bug caused calling noindex on every page, sorry.

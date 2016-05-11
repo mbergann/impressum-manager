@@ -40,7 +40,7 @@ class Impressum_Manager {
 	 */
 	public function __construct() {
 		$this->plugin_name = 'Impressum Manager';
-		$this->version     = '1.0.4';
+		$this->version     = '1.1.3';
 		$this->load_dependencies();
 		$this->define_hooks();
 	}
@@ -119,6 +119,7 @@ class Impressum_Manager {
 			$this->loader->add_action( 'admin_menu', $plugin_admin, 'add_menu' );
 			$this->loader->add_action( 'admin_notices', $plugin_admin, 'installation_notice' );
 			$this->loader->add_action( 'wp_ajax_impressum_manager_get_impressum_field', $plugin_admin, 'editor_ajax_callback' );
+            $this->loader->add_action( 'wp_ajax_impressum_manager_save_impressum_field', $plugin_admin, 'save_editor_ajax_callback' );
 			$this->loader->add_action( 'wp_ajax_impressum_manager_get_shortcode_preview', $plugin_admin, 'shortcode_preview_ajax_callback' );
 			$this->loader->add_action( 'wp_ajax_delete_it', $plugin_admin, 'deletestuff' );
 		}

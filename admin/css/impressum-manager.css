@@ -128,10 +128,9 @@ div.tooltip {
 }
 
 div.tooltip:before {
-    border-color: transparent #3d6199 transparent transparent;
-    border-right: 6px solid #3d6199;
-    border-style: solid;
-    border-width: 6px 6px 6px 0;
+    border: 6px solid transparent;
+    border-right-color: #3d6199;
+    border-left-width: 0;
     content: "";
     display: block;
     height: 0;
@@ -157,6 +156,10 @@ h2.logo {
     font-family: "Times New Roman", "Bitstream Charter", Times, serif;
     color: #fff;
     font-size: 4em
+}
+
+.logo a {
+    color: #fff;
 }
 
 @media screen and (min-width: 782px) {

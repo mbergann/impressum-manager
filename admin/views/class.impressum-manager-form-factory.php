@@ -231,7 +231,8 @@ public static function get_source_from() {
 						__( "Aktiengesellschaft (AG)", SLUG ),
 						__( "Kommanditgesellschaft auf Aktien (KGaA)", SLUG ),
 						__( "Gesellschaft mit beschränkter Haftung (GmbH)", SLUG ),
-						__( "Genossenschaft (eG)", SLUG )
+						__( "Genossenschaft (eG)", SLUG ),
+                        __( "Eingetragener Verein (e.V.)", SLUG )
 					);
 
 					$idx = 1;
